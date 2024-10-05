@@ -1,0 +1,66 @@
+/* Extra Colors:*/
+
+@transparent: rgba(0,0,0,0);
+
+/* Mixins */
+
+.box-sizing {
+	-webkit-box-sizing: border-box; // Safari/Chrome, other WebKit 
+	-moz-box-sizing: border-box;    // Firefox, other Gecko 
+	box-sizing: border-box;
+}
+
+.shadow (@x: 1px, @y: 1px, @blur: 3px, @spread: 0px, @color: rgba(0,0,0,.3)) {
+	box-shadow: @arguments;
+	-moz-box-shadow: @arguments;
+	-webkit-box-shadow: @arguments;
+}
+
+.text-shadow (@string: 0 1px 3px rgba(0, 0, 0, 0.25)) {
+  text-shadow: @string;
+}
+
+.rounded-corners (@radius: 3px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	-ms-border-radius: @radius;
+	-o-border-radius: @radius;
+	border-radius: @radius;
+}
+
+.unselectable {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  -o-user-select: none;
+  user-select: none;
+}
+
+.rotate(@degrees: 0deg) {
+  -ms-transform: rotate(@degrees); /* IE 9 */
+  -webkit-transform: rotate(@degrees); /* Safari and Chrome */
+  -o-transform: rotate(@degrees); /* Opera */
+  -moz-transform: rotate(@degrees); /* Firefox */
+  transform: rotate(@degrees);
+}
+
+.transition(@property: all, @duration: 1s, @timing-function: ease-out-in, @delay: 0s) {
+  transition: @arguments;
+  -moz-transition: @arguments; /* Firefox 4 */
+  -webkit-transition: @arguments; /* Safari and Chrome */
+  -o-transition: @arguments; /* Opera */
+}
+
+.truncate-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}

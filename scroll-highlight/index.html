@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <script type="text/javascript" src="assets/js/jquery-2.0.3.min.js"></script>
+
+  <title>Scroll Highlight</title>
+
+</head>
+<body>
+
+<div class="device-wrapper">
+
+  <div class="action-bar">
+    <a href="" class="logo">
+      Access
+    </a>
+  </div>
+
+  <div class="order-panel">
+    <div class="order-wrapper">
+      <header class="order-header">
+        <span class="label selected-items">Selected Items</span>
+        <span class="label order-summary">Order Summary</span>
+
+        <a href="" class="label clear-items">Clear Items</a>
+        <a href="" class="label edit-items">Edit Items</a>
+      </header>
+
+      <div class="order-body">
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+        <div class="order-item">Spies Pie</div>
+      </div>
+    </div> <!-- /.order-wrapper -->
+
+    <div class="checkout-buttons">
+      <div class="totals-wrapper">
+        <span class="label black">Total</span>
+        <div class="items-total">$85.24</div>
+        <span class="label tax">Tax ($7.59)</span>
+      </div>
+      <div class="main-checkout-button">Checkout</div>
+      <div class="quick-checkout-button">Exact Cash</div>
+      <div class="quick-checkout-button">Quick Credit</div>
+    </div>
+
+    <div class="checkout-total">
+      <div class="totals-wrapper">
+        <span class="label black">Total</span>
+        <div class="items-total">$85.24</div>
+        <span class="label tax">Tax ($7.59)</span>
+      </div>
+      <div class="balance-wrapper">
+        <span class="label black">Remaining Balance</span>
+        <div class="balance-total">$85.24</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scrollable-menu">
+    <div class="category-wrapper color-categories" id="Drinks"><div>
+      <header>Drinks</header>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+    </div></div>
+
+    <div class="category-wrapper color-categories" id="Appetizers"><div>
+      <header>Appetizers</header>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+    </div></div>
+
+    <div class="category-wrapper color-categories" id="Salads"><div>
+      <header>Salads</header>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+    </div></div>
+
+    <div class="category-wrapper color-categories" id="Breads"><div>
+      <header>Breads</header>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+    </div></div>
+
+    <div class="category-wrapper color-categories" id="Soups"><div>
+      <header>Soups</header>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+    </div></div>
+
+    <div class="category-wrapper color-categories" id="Seafood"><div>
+      <header>Seafood</header>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+    </div></div>
+
+    <div class="category-wrapper color-categories" id="Plates"><div>
+      <header>Plates</header>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+    </div></div>
+
+    <div class="category-wrapper color-categories" id="For-the-kids"><div>
+      <header>For the Kids</header>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+    </div></div>
+
+    <div class="category-wrapper color-categories" id="Take-out"><div>
+      <header>Take Out</header>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+    </div></div>
+
+    <div class="category-wrapper color-categories" id="Desserts"><div>
+      <header>Desserts</header>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+      <div href="" class="item"><a href=""></a></div>
+    </div></div>
+  </div>
+
+  <div class="menu-sidebar color-nav">
+    <a href="#Drinks" id="link-Drinks">Drinks</a>
+    <a href="#Appetizers" id="link-Appetizers">Appetizers</a>
+    <a href="#Salads" id="link-Salads">Salads</a>
+    <a href="#Breads" id="link-Breads">Breads</a>
+    <a href="#Soups" id="link-Soups">Soups</a>
+    <a href="#Seafood" id="link-Seafood">Seafood</a>
+    <a href="#Plates" id="link-Plates">Plates</a>
+    <a href="#For-the-kids" id="link-For-the-kids">For the Kids</a>
+    <a href="#Take-out" id="link-Take-out">Take Out</a>
+    <a href="#Desserts" id="link-Desserts">Desserts</a>
+  </div>
+
+  <div class="payment-screen">
+    <div class="payment-buttons-wrapper">
+      <div class="payment-button"><a href="">Pay up</a></div>
+      <div class="payment-button"><a href="">Pay up</a></div>
+      <div class="payment-button"><a href="">Pay up</a></div>
+      <div class="payment-button"><a href="">Pay up</a></div>
+      <div class="payment-button"><a href="">Pay up</a></div>
+      <div class="payment-button"><a href="">Pay up</a></div>
+      <div class="payment-button"><a href="">Pay up</a></div>
+      <div class="payment-button"><a href="">Pay up</a></div>
+      <div class="payment-button"><a href="">Pay up</a></div>
+    </div>
+    <div class="cancel-button">Back to Register</div>
+    <div class="discount-button">Add Discount</div>
+  </div>
+
+</div> <!-- /.device-wrapper -->
+
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    /*
+    // Color toggle button
+    $(".color-toggle").click(function() {
+      if ( $(".menu-sidebar").hasClass("color-nav") ) {
+        $(".menu-sidebar").removeClass("color-nav");
+        $(".category-wrapper").removeClass("color-categories");
+      } else {
+        $(".menu-sidebar").addClass("color-nav");
+        $(".category-wrapper").addClass("color-categories");
+      };
+    });
+    */
+
+    // Click scroll to ID
+    var hash = window.location.hash.substring(1);
+    var $root = $('body, html');
+
+    // var scrollablePosition = $(".scrollable-menu").offset().top;
+    // console.log(scrollablePosition);
+
+    $('a').click(function() {
+      // var href = $.attr(this, 'href');
+
+      var correctSection = $(this).attr("id").replace('link-','');
+      console.log(correctSection);
+
+      var sectionOffset = $("#" + correctSection);
+      console.log( $(sectionOffset).offset().top );
+
+      // var scrollableOffset = $(sectionOffset).offset().top * -1;
+
+      $root.animate({
+        scrollTop: $(sectionOffset).offset().top
+      }, 500, function () {
+        window.location.hash = correctSection;
+      });
+      return false;
+    });
+
+    // Highlight nav when section is in viewport
+    // - Define Viewport
+    $.fn.isOnScreen = function(){
+      var win = $(window);
+      var viewport = {
+        top : win.scrollTop(),
+        left : win.scrollLeft()
+      };
+
+      viewport.right = viewport.left + win.width();
+      viewport.bottom = viewport.top + win.height();
+
+      var bounds = this.offset();
+      bounds.right = bounds.left + this.outerWidth();
+      bounds.bottom = bounds.top + this.outerHeight();
+
+      return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
+    };
+
+    // - Function to check if section is on screen
+    var onScreenChecker = function() {
+      $(".category-wrapper").each(function() {
+        var onScreenId = $(this).attr("id");
+        // console.log( onScreenId );
+
+        if ( $(this).isOnScreen() ) {
+          $("#link-" + onScreenId).addClass("on-screen");
+          // console.log( onScreenId + " is visible");
+        } else {
+          $("#link-" + onScreenId).removeClass("on-screen");
+          // console.log( onScreenId + " is not visible");
+        }
+      });
+    };
+
+    // - Check if on screen at page load
+    onScreenChecker();
+
+    // - Check if on screen during scroll
+    $(window).scroll(function() {
+      console.log("body is scrolling");
+      onScreenChecker();
+    });
+
+    $(".main-checkout-button").click(function() {
+      $(".device-wrapper").addClass("checkout-screen");
+      $("body").css({"overflow": "hidden"});
+    });
+
+    $(".cancel-button").click(function() {
+      $(".device-wrapper").removeClass("checkout-screen");
+      $("body").css({"overflow": "auto"});
+    });
+
+  });
+</script>
+
+</body>
+</html>

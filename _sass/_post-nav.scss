@@ -1,0 +1,51 @@
+/* Post Navigation */
+
+#post-navigation {
+	display: block;
+}
+
+.post-nav {
+	display: inline-block;
+	position: relative;
+ 	@include font-size(1.4);
+	@include uppercase();
+	width: auto;
+	height: 30px;
+	color: $off-black;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 30px;
+	background: $white;
+
+	@include breakpoint(large) { background: $white; }
+
+	&.post-right {
+		padding: 0 30px 0 10px;
+
+		@include breakpoint(large) { float: right; }
+	}
+
+	&.post-left {
+		padding: 0 10px 0 30px;
+		margin-right: 10px;
+	}
+
+	svg {
+		position: absolute;
+		top: 0;
+		width: 30px;
+		height: 30px;
+		fill: $off-black;
+	}
+
+	.ico-pointer-right { right: 0; }
+	.ico-pointer-left { left: 0; }
+
+	&:hover {
+		color: $white;
+		background: shade($body-background, 40);
+		border: none;
+
+		svg { fill: $white; }
+	}
+}

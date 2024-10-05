@@ -1,0 +1,104 @@
+/* About */
+
+.my-photo,
+.my-bio,
+.resume,
+.values,
+.experiments,
+.links {
+  width: 50%;
+  @include clearfix();
+
+  @include breakpoint(medium) { width: 100%; }
+  margin-bottom: 30px;
+}
+
+.my-photo {
+  @include breakpoint(medium) {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+}
+
+.bio-pic {
+  max-width: 400px;
+}
+
+.resume-title {
+  @include font-size(2);
+  @include uppercase();
+  color: $off-black;
+  margin: 25px 0 0 0;
+}
+
+.resume-details {
+  @include font-size(2);
+  color: rgba($dark-grey, .8);
+  margin: 0;
+}
+
+.resume-dates {
+  @include source-sans();
+  @include font-size(1.4);
+  @include uppercase();
+  color: rgba($dark-grey, .8);
+}
+
+.resume-button {
+  position: relative;
+  @include font-size(2);
+  padding-left: 25px;
+  margin-top: 30px;
+  float: left;
+
+  svg {
+    position: absolute;
+    top: -3px;
+    left: -6px;
+    width: 30px;
+    height: 30px;
+    fill: $cyan;
+  }
+}
+
+.values p {
+  color: rgba($dark-grey, .8);
+
+  &.label {
+    @include source-sans();
+    @include font-size(2);
+    @include uppercase();
+    color: $off-black;
+    margin: 25px 0 0 0;
+  }
+}
+
+.links {
+  h3 {
+    @include font-size(2);
+    @include uppercase();
+    color: $off-black;
+  }
+}
+
+.list {
+  @include unstyled-list();
+  margin-bottom: 20px;
+
+  a {
+    display: block;
+    float: left;
+    background: tint($off-white, 50);
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 0 5px 5px 0;
+    border-bottom: 1px solid rgba($off-black, .1);
+    color: $off-black;
+
+    &:hover {
+      background: tint($cyan, 20);
+    }
+  }
+}

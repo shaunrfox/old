@@ -1,0 +1,20 @@
+{% assign current = page.url | downcase | split: '/' %}
+
+<div class="site-header">
+	<div class="container">
+		<div class="column nav-column">
+			<nav>
+				<div id="menu">
+					<a id="worknav" {% if (current[1] == 'work') or (page.url == "/") %} class="active" {% endif %} href="/">Work</a>
+					<a id="photosnav" {% if current[1] == 'photos' %} class="active" {% endif %} href="/photos/">Photos</a>
+					<a id="writingnav" {% if current[1] == 'writing' %} class="active" {% endif %} href="/writing/">Writing</a>
+					<a id="aboutnav" {% if current[1] == 'about' %} class="active" {% endif %} href="/about/">About</a>
+				</div>
+			</nav>
+
+			<div class="main-title">Howdy, I&rsquo;m Shaun.</div>
+
+			<a href="/" class="logo-link"><img class="logo" src="/assets/img/shaun-fox-logo.gif"/></a>
+		</div>
+	</div>
+</div><!-- /header -->

@@ -1,0 +1,39 @@
+/*
+ * * * * * * * * * * * * * * * * * * *
+ * ORDER PANEL
+ * * * * * * * * * * * * * * * * * * *
+ */
+
+$action-bar-height: 60px;
+
+.action-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: $action-bar-height;
+  background: $action-bar;
+  @include box-shadow(0 2px 2px rgba($off-black, .2));
+  z-index: 900;
+}
+
+.logo {
+  display: block;
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+  color: $white;
+  @include font-size(3);
+  text-decoration: none;
+  line-height: 42px;
+  float: left;
+  background: url('../img/bypass-icon.png');
+  background-size: contain;
+  background-position: center left;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+  opacity: .85;
+
+  &:hover { opacity: 1; }
+}

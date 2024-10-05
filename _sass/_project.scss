@@ -1,0 +1,41 @@
+/* Project Template */
+
+.project-description {
+	float: right;
+	width: percentage(1/3);
+
+	.post p { @include font-size(2.4); }
+
+	@include breakpoint(large) { width: 100%; }
+}
+
+.project-images {
+	float: left;
+	width: percentage(2/3);
+
+	@include breakpoint(large) { width: 100%; }
+
+	img {
+		margin-bottom: 4em;
+		@include breakpoint(medium) { margin-bottom: 3em; }
+		@include breakpoint(small) { margin-bottom: 2em; }
+	}
+
+	&.photos {
+		img {
+			display: block;
+			width: auto;
+			margin: 0 auto 30px;
+		}
+	}
+}
+
+.project {
+	@include clearfix();
+	margin-bottom: 30px;
+}
+
+.project-video {
+	margin-bottom: 30px;
+	background: $white;
+}

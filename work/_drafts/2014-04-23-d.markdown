@@ -1,0 +1,14 @@
+---
+layout: work
+title:  "The Letter D"
+date:   2014-04-23
+categories: Projects
+home_image: d-home.jpg
+header_image: d-header.png
+header_color: 003e58
+work_images: ["d-1.jpg", "d-2.jpg", "d-3.jpg", "d-4.jpg"]
+---
+
+A while back I was invited to participate in a <a href="http://thetypefight.tumblr.com/post/33306969032/shaun-fox-and-brendan-pittman-were-once-the-finest">Type&nbsp;Fight</a> against my good friend, <a href="http://brendanpittman.com">Brendan</a>. The letter we were assigned was &ldquo;D&rdquo;. The First image was my entry, and the following images were made along the way.
+
+Turns out, I lost.

@@ -1,0 +1,22 @@
+---
+layout: photography
+title:  "Boston 2013"
+date:   2013-01-01
+categories: photos
+base-path: "/assets/img/photos/2013-boston"
+home_image: boston-school.jpg
+page-title: "Boston has so many secret places and beautiful details."
+
+---
+
+<img src="{{ page.base-path }}/bodega.jpg" />
+<img src="{{ page.base-path }}/boston-library.jpg" />
+<img src="{{ page.base-path }}/boston-school.jpg" />
+<img src="{{ page.base-path }}/bush.jpg" />
+<img src="{{ page.base-path }}/fans.jpg" />
+<img src="{{ page.base-path }}/fenway-park.jpg" />
+<img src="{{ page.base-path }}/garden.jpg" />
+<img src="{{ page.base-path }}/peonies.jpg" />
+<img src="{{ page.base-path }}/reader.jpg" />
+<img src="{{ page.base-path }}/red-sox.jpg" />
+<img src="{{ page.base-path }}/whistler.jpg" />

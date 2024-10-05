@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* 
+html5doctor.com Reset Stylesheet
+v1.4.1 
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+ul,
+dl {
+  list-style: none;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  background: none;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+/* end reset *//*~~~~~~~~~~~ GRID ~~~~~~~~~~~~~~*/
+.container {
+  width: 100%;
+  max-width: 1400px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 5%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  clear: both;
+  display: block;
+  position: relative;
+}
+.onecol,
+.twocol,
+.threecol,
+.threecol-2,
+.fourcol,
+.fourcol-3,
+.fivecol,
+.fivecol-2,
+.fivecol-3,
+.fivecol-4,
+.sixcol {
+  width: 98%;
+  float: left;
+  margin: 1%;
+  padding: 0;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 480px) {
+  .twocol {
+    width: 48%;
+  }
+  .threecol {
+    width: 31.333%;
+  }
+  .threecol-2 {
+    width: 64.667%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .fourcol {
+    width: 23%;
+  }
+  .fourcol-3 {
+    width: 73%;
+  }
+}
+@media screen and (min-width: 960px) {
+  .fivecol {
+    width: 18%;
+  }
+  .fivecol-2 {
+    width: 38%;
+  }
+  .fivecol-3 {
+    width: 58%;
+  }
+  .fivecol-4 {
+    width: 78%;
+  }
+  .sixcol {
+    width: 14.667%;
+  }
+}
+.box-sizing {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* Theme Name: Experiments */
+/* General stuff */
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 40px;
+  font-family: source-sans-pro, Helvetica, Verdana, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 62.5%;
+  border: 20px solid #ffcc00;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 3em;
+  color: #cca300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 40px;
+  text-align: center;
+}
+img {
+  float: left;
+  width: 10%;
+  margin: 1%;
+}

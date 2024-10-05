@@ -1,0 +1,118 @@
+/*
+ * * * * * * * * * * * * * * * * * * *
+ * Content Area
+ * * * * * * * * * * * * * * * * * * *
+ */
+
+.container {
+  width: 100%;
+  max-width: 1350px;
+  height: auto;
+  margin: 0 auto;
+  @extend %clearfix;
+  @include transition(200ms ease all);
+  padding: 0 70px;
+
+  @include breakpoint(large) { padding-left: 20px; }
+
+  &.main-content-wrapper {
+    padding: 70px 70px 50px;
+    z-index: 10;
+
+    @include breakpoint(large) { padding-left: 20px; }
+    @include breakpoint(medium) { padding: 50px 0 0 0; }
+  }
+}
+
+.header-actions {
+  .button.icon {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    float: right;
+    @include border-radius-all(0);
+
+    svg { fill: $white; }
+
+    &:hover {
+      cursor: pointer;
+      background: darken($blue, 10);
+    }
+  }
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 800px;
+  background: $white;
+  padding: 80px 30px 30px 30px;
+  margin-bottom: 30px;
+  @include box-shadow(2px 2px 3px rgba($off-black, .2));
+  @include border-radius-all(4px);
+  @include transition(200ms ease all);
+
+  @include breakpoint(medium) {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0;
+  }
+}
+
+.content-title-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  border-bottom: 1px solid $off-white;
+  padding: 0 20px;
+  line-height: 50px;
+
+  .title {
+    height: 50px;
+    width: auto;
+    @include font-size(2);
+    float: left;
+    @extend %clearfix;
+
+    a {
+      display: block;
+      float: left;
+      position: relative;
+      width: auto;
+      height: 50px;
+      padding-right: 40px;
+      margin-right: 10px;
+
+      svg {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        fill: $light-grey;
+      }
+
+      &:hover {
+        border: none;
+        color: $off-black;
+      }
+
+      &:last-child svg { display: none; }
+    }
+  }
+
+  .actions {
+    padding: 10px 0;
+
+    [class*="button"] {
+      float: right;
+      margin-left: 20px;
+    }
+  }
+}

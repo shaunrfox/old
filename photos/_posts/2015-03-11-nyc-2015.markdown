@@ -1,0 +1,22 @@
+---
+layout: photography
+title:  "NYC 2015"
+date:   2015-03-11
+categories: photos
+base-path: "/assets/img/photos/2015-march-nyc"
+home_image: horses.jpg
+page-title: "Photos from our anniversary weekend in New York City."
+
+---
+
+<img src="{{ page.base-path }}/birds.jpg" />
+<img src="{{ page.base-path }}/chagall.jpg" />
+<img src="{{ page.base-path }}/flatiron.jpg" />
+<img src="{{ page.base-path }}/horses.jpg" />
+<img src="{{ page.base-path }}/ped-1.jpg" />
+<img src="{{ page.base-path }}/ped-2.jpg" />
+<img src="{{ page.base-path }}/ped-3.jpg" />
+<img src="{{ page.base-path }}/ped-4.jpg" />
+<img src="{{ page.base-path }}/shadows.jpg" />
+<img src="{{ page.base-path }}/times-square.jpg" />
+<img src="{{ page.base-path }}/red-brick.jpg" />

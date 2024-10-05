@@ -1,0 +1,21 @@
+---
+layout: photography
+title:  "Collection 2014"
+date:   2014-01-01
+categories: photos
+base-path: "/assets/img/photos/2014-collection"
+home_image: leaves-lu.jpg
+page-title: "Some random favorites from 2014."
+
+---
+
+<img src="{{ page.base-path }}/airport.jpg" />
+<img src="{{ page.base-path }}/anapolis-fireworks.jpg" />
+<img src="{{ page.base-path }}/cones.jpg" />
+<img src="{{ page.base-path }}/flags.jpg" />
+<img src="{{ page.base-path }}/girls-grass.jpg" />
+<img src="{{ page.base-path }}/grilling.jpg" />
+<img src="{{ page.base-path }}/leaves-lu.jpg" />
+<img src="{{ page.base-path }}/scooters.jpg" />
+<img src="{{ page.base-path }}/snow.jpg" />
+<img src="{{ page.base-path }}/swimming.jpg" />

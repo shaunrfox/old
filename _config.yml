@@ -1,0 +1,12 @@
+name: shaunfox.com
+site.name: shaunfox.com
+permalink: /:categories/:title.html
+url: http://shaunfox.com
+paginate_per_category: true
+highlighter: rouge
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown

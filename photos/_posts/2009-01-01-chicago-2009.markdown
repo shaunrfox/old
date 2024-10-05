@@ -1,0 +1,26 @@
+---
+layout: photography
+title:  "Chicago 2009"
+date:   2009-01-01
+categories: photos
+base-path: "/assets/img/photos/2009-chicago"
+home_image: molly-vent.jpg
+page-title: "We spent the summer of 2009 in Chicago, soaking up the best part of the weather."
+
+---
+
+<img src="{{ page.base-path }}/apartment.jpg" />
+<img src="{{ page.base-path }}/baseball.jpg" />
+<img src="{{ page.base-path }}/door-1.jpg" />
+<img src="{{ page.base-path }}/door-2.jpg" />
+<img src="{{ page.base-path }}/door-3.jpg" />
+<img src="{{ page.base-path }}/door-4.jpg" />
+<img src="{{ page.base-path }}/lemonade-stand.jpg" />
+<img src="{{ page.base-path }}/little-house.jpg" />
+<img src="{{ page.base-path }}/molly-slide.jpg" />
+<img src="{{ page.base-path }}/molly-vent.jpg" />
+<img src="{{ page.base-path }}/old-signage.jpg" />
+<img src="{{ page.base-path }}/sears-tower.jpg" />
+<img src="{{ page.base-path }}/sign.jpg" />
+<img src="{{ page.base-path }}/street.jpg" />
+<img src="{{ page.base-path }}/walking.jpg" />

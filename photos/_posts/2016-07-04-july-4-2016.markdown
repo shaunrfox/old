@@ -1,0 +1,22 @@
+---
+layout: photography
+title:  "July 4th, 2016"
+date:   2016-07-04
+categories: photos
+base-path: "/assets/img/photos/2016-july-4"
+home_image: DSCF1826.jpg
+page-title: "Photos from July 4th, 2016."
+
+---
+
+<img src="{{ page.base-path }}/DSCF1819.jpg" />
+<img src="{{ page.base-path }}/DSCF1814.jpg" />
+<img src="{{ page.base-path }}/DSCF1820.jpg" />
+<img src="{{ page.base-path }}/DSCF1826.jpg" />
+<img src="{{ page.base-path }}/DSCF1829.jpg" />
+<img src="{{ page.base-path }}/DSCF1832.jpg" />
+<img src="{{ page.base-path }}/DSCF1835.jpg" />
+<img src="{{ page.base-path }}/DSCF1839.jpg" />
+<img src="{{ page.base-path }}/DSCF1781.jpg" />
+<img src="{{ page.base-path }}/DSCF1790.jpg" />
+<img src="{{ page.base-path }}/DSCF1795.jpg" />

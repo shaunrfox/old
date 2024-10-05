@@ -1,0 +1,122 @@
+/*
+ * * * * * * * * * * * * * * * * * * *
+ * Dropdowns
+ * * * * * * * * * * * * * * * * * * *
+ */
+
+$dropdown-button-height: 40px;
+
+.dropdown {
+  position: relative;
+  width: auto;
+  height: $dropdown-button-height;
+  // margin-left: 10px;
+  z-index: 1000;
+
+  .dropdown-menu {
+    display: none;
+    z-index: 1000;
+    min-width: 200px;
+    position: absolute;
+    top: $dropdown-button-height + 5px;
+    left: 0;
+    height: auto;
+    overflow: hidden;
+    background: $white;
+    border: 1px solid darken($light-grey, 10);
+    @include border-radius-all(4px);
+    @include box-shadow(2px 2px 3px rgba($off-black, .2));
+    max-height: 300px;
+    overflow: auto;
+
+    li {
+      display: block;
+      float: left;
+      width: 100%;
+      height: 40px;
+      padding: 0 10px;
+      line-height: 42px;
+      border-bottom: 1px solid $light-grey;
+
+      &:last-child { border: none; }
+
+      &:hover {
+        cursor: pointer;
+        background: $off-white;
+      }
+
+      &.active {
+        background: lighten($light-blue, 30);
+
+        &:hover {
+          cursor: default;
+          background: lighten($light-blue, 30);
+        }
+      }
+    }
+
+    &.drop-up {
+      top: auto;
+      bottom: $dropdown-button-height + 5px;
+
+      @media (max-width: 650px) {
+        top: $dropdown-button-height + 5px;
+        bottom: auto;
+      }
+    }
+  }
+
+  &.open {
+    z-index: 9000;
+
+    .button-light {
+      background: $light-grey;
+      border-color: $mid-grey;
+      @include box-shadow(0 0 0 rgba($off-black, 0));
+    }
+
+    .dropdown-menu {
+      display: block;
+      z-index: 9000;
+    }
+  }
+}
+
+.button-light {
+  width: 100%;
+  height: $dropdown-button-height;
+  padding-right: $dropdown-button-height + 10px;
+  background: $white;
+  border: 1px solid $light-grey;
+  text-align: left;
+  @include box-shadow(0 0 0 rgba($off-black, 0));
+  @include transition(100ms ease all);
+
+  &:hover {
+    @include box-shadow(1px 1px 2px rgba($off-black, .2));
+    @include transition(0ms ease all);
+  }
+
+  &:active {
+    background: $light-grey;
+    border-color: $mid-grey;
+    @include box-shadow(0 0 0 rgba($off-black, 0));
+  }
+
+  span {
+    display: block;
+    height: $dropdown-button-height;
+    line-height: $dropdown-button-height + 4px;
+    width: 100%;
+    @extend %truncate;
+  }
+
+  svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: $dropdown-button-height;
+    height: $dropdown-button-height;
+  }
+}

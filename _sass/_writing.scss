@@ -1,0 +1,121 @@
+/*
+ * * * * * * * * * * * * * * * * * * *
+ * Writing
+ * * * * * * * * * * * * * * * * * * *
+ */
+
+.writing-post {
+	display: block;
+	position: relative;
+	width: 90%;
+	padding: 40px;
+	background: $off-white;
+	// box-shadow: 2px 2px 3px rgba($midnight, .2);
+	max-width: 700px;
+	float: none;
+	margin: 20px auto 40px;
+	height: auto;
+
+	a {
+		position: relative;
+		display: block;
+		float: left;
+		@include font-size(4);
+		color: $off-black;
+		font-weight: 700;
+		z-index: 10;
+		border-bottom: 2px solid transparent;
+		margin-bottom: 10px;
+
+		&:hover {
+			color: $cyan;
+		}
+	}
+
+	.meta {
+		float: left;
+		clear: both;
+		@include font-size(1.6);
+		@include source-sans();
+		@include uppercase;
+		color: $mid-grey;
+	}
+
+	.excerpt {
+		float: left;
+		clear: both;
+		position: relative;
+		width: 100%;
+		@include font-size(1.8);
+		@include chaparral();
+		line-height: 1.5em;
+		color: $dark-grey;
+		z-index: 10;
+	}
+
+	&:hover {
+		border: none;
+
+		.writing-home-image {
+			opacity: .2;
+
+			&:before { opacity: .5; }
+		}
+	}
+}
+
+.writing-list-wrapper {
+	// .column { padding: 3px; }
+}
+
+.writing-post-wrapper {
+	padding: 80px;
+	max-width: 860px;
+	background: $off-white;
+	// box-shadow: 2px 2px 3px rgba($midnight, .2);
+	margin: 0 auto;
+	@include transition(300ms ease all);
+
+	@include breakpoint(medium) {
+		padding: 0;
+		background: none;
+	}
+
+	h1 { @include font-size(4); }
+	h2 { @include font-size(2.6); }
+	h3 {
+		@include font-size(2.2);
+		@include uppercase();
+		color: $mid-grey;
+	}
+
+	blockquote {
+		border-left: 3px solid tint($cyan, 20);
+		margin-left: 0;
+		padding: 20px 20px 1px 20px;
+
+		p {
+			@include font-size(3);
+			font-weight: 600;
+
+			&:last-child { margin-bottom: .5em;}
+		}
+	}
+
+	.meta {
+		@include source-sans();
+		@include uppercase();
+		@include font-size(1.4);
+		color: $mid-grey;
+
+		&:after {
+			content: '';
+			display: block;
+			width: 150px;
+			height: 2px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			background: rgba($off-black, .1);
+		}
+	}
+}

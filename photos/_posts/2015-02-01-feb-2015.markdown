@@ -1,0 +1,17 @@
+---
+layout: photography
+title:  "February 2015"
+date:   2015-02-01
+categories: photos
+base-path: "/assets/img/photos/2015-feb"
+home_image: molly.jpg
+page-title: "A few photos from February 2015."
+
+---
+
+<img src="{{ page.base-path }}/stephen.jpg" />
+<img src="{{ page.base-path }}/downtown-austin.jpg" />
+<img src="{{ page.base-path }}/hunting-1.jpg" />
+<img src="{{ page.base-path }}/hunting-2.jpg" />
+<img src="{{ page.base-path }}/hunting-3.jpg" />
+<img src="{{ page.base-path }}/molly.jpg" />

@@ -1,0 +1,75 @@
+/*
+ * * * * * * * * * * * * * * * * * * *
+ * FOOTER
+ * * * * * * * * * * * * * * * * * * *
+ */
+
+.site-footer {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background: $white;
+  margin-top: 100px;
+
+  .column {
+
+    p {
+      margin: 0;
+      float: left;
+      @include source-sans();
+      @include font-size(1.4);
+      color: $mid-grey;
+      height: 40px;
+      padding: 11px 0;
+      @include uppercase();
+    }
+
+    .connect {
+      float: right;
+
+      a {
+        display: block;
+        float: left;
+        width: 40px;
+        height: 40px;
+        margin: 0 5px;
+
+        svg { fill: $mid-grey; }
+
+        &:hover {
+          cursor: pointer;
+          border: none;
+
+          svg { fill: $off-black; }
+        }
+      }
+    }
+  }
+
+  @include breakpoint(medium) {
+    height: auto;
+
+    .column {
+      p,
+      .connect {
+        float: none;
+        text-align: center;
+      }
+
+      .connect a {
+        float: none;
+        display: inline-block;
+      }
+    }
+  }
+
+  @include breakpoint(small) {
+    .column .connect a {
+      float: none;
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      margin: 0;
+    }
+  }
+}

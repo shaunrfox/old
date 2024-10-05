@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<section class="project-wrapper">
+	<div class="container project">
+		<div class="column project-description">
+			<div class="post">
+				{{ content }}
+			</div>
+		</div>
+
+		<div class="column project-images">
+			<div class="project-video">
+				<iframe src="//player.vimeo.com/video/55420202?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+			{% for image in page.work_images %}
+				<img src="/assets/img/work-images/{{ image }}">
+			{% endfor %}
+		</div>
+	</div>
+</section>

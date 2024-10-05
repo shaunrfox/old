@@ -1,0 +1,21 @@
+---
+layout: photography
+title:  "2017 Fall - 2018 Spring"
+date:   2017-10-01
+categories: photos
+base-path: "/assets/img/photos/2017-fall-2018-spring"
+home_image: DSCF2522.jpg
+page-title: "2017 Fall - 2018 Spring"
+
+---
+
+<img src="{{ page.base-path }}/DSCF2046.jpg" />
+<img src="{{ page.base-path }}/DSCF2073.jpg" />
+<img src="{{ page.base-path }}/DSCF2075.jpg" />
+<img src="{{ page.base-path }}/DSCF2405.jpg" />
+<img src="{{ page.base-path }}/DSCF2413.jpg" />
+<img src="{{ page.base-path }}/DSCF2522.jpg" />
+<img src="{{ page.base-path }}/DSCF2556.jpg" />
+<img src="{{ page.base-path }}/DSCF2557.jpg" />
+<img src="{{ page.base-path }}/DSCF2559.jpg" />
+<img src="{{ page.base-path }}/DSCF2568.jpg" />

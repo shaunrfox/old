@@ -1,0 +1,19 @@
+---
+layout: work
+title:  "Bypass Mobile"
+date:   2015-04-25
+categories: work
+home_image: bypass-home-2.jpg
+home-description: "Point of Sale and Inventory management for the likes of sports stadiums and music venues comes with a lot of complexity. I worked with Bypass to improve all aspects of their apps, from interface and workflows to deployment and customization."
+page-title: "<strong>Bypass Mobile</strong> provides a myriad of products to help you run your stadium, music venue, or restaurant."
+work_images: ["bypass-1.jpg", "bypass-2.jpg", "bypass-3.jpg", "bypass-4.jpg", "bypass-5.jpg", "bypass-6.jpg", "bypass-7.jpg", "bypass-8.jpg", "bypass-9.jpg", "bypass-10.jpg"]
+---
+
+During my time at Bypass, my main task was updating the existing interface and workflows of multiple apps. These were used daily by our customers, so workflow modifications were a delicate process. Some of the Android apps had disparate visual design, yet similar functionality, so we brought them all under one unified look and even combined some of them.
+
+I also got the chance to create some new applications from scratch. Lots of times it&rsquo;s helpful in the process to make live mockups to see how things will play out. Here are a few that I made along the way:
+
+<a href="/scroll-highlight/">Android Scroll Highlight</a><br>
+<a href="/bypass-online-order/">Bypass Online Ordering</a><br>
+<a href="/bypass-licensing/">Bypass Licensing Mockup</a><br>
+<a href="/admin-experiment/">Admin Material Design Experiment</a>

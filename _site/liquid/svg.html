@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html>
+<head>
+
+<title></title>
+
+<style>
+
+body {
+	background-color: #8b8b8b;
+	font-family: "Franklin Gothic Book", "Franklin Gothic", "ITC Franklin Gothic Book", "ITC Franklin Gothic", Verdana, sans-serif;
+	text-align: center;
+	padding:40px 100px;
+}
+
+h1 {
+	text-align: left;
+	font-weight: normal;
+}
+
+td {
+	padding:40px;
+	background:#ccc;
+	border:10px solid #8b8b8b;
+}
+
+.circle-border-test {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    /* The background is used to specify the border background */
+    background: -moz-linear-gradient(270deg, #e6e7e8, #a7a9ab);
+    background: -webkit-linear-gradient(270deg, #e6e7e8, #a7a9ab);
+    /* Background origin is the padding box by default.
+    Override to make the background cover the border as well. */
+    -moz-background-origin: border;
+    background-origin: border-box;
+    /* A transparent border determines the width */
+    border: 1px solid transparent;
+    border-radius: 18px;
+    box-shadow:
+        inset 0 0 12px #e6e7e8, /* Inset shadow */
+        0 3px 3px #808284, /* Outset shadow */
+        inset 0 0px 0px #bebfc1; /* The background color */
+}
+
+p.inner-circle {
+    width:8px;
+    height:8px;
+    border-radius: 5px;
+    background:#686868;
+    margin:5px;
+    box-shadow:
+        inset 0 2px 1px #000, /* The background color */       
+        inset 0 0 1px #000; /* Inset shadow */
+}
+
+.two-x .circle-border-test {
+	width:36px;
+	height: 36px;
+	border-radius: 36px;
+}
+
+.two-x .inner-circle {
+	width: 14px;
+	height: 14px;
+	border-radius: 14px;
+	margin:11px;
+}
+
+.svg-1 {
+	background-image: url('assets/img/knob.svg');
+	width: 25px;
+	height: 26px;
+	background-size: contain;
+}
+
+.svg-2 {
+	background-image: url('assets/img/knob.svg');
+	width: 50px;
+	height: 52px;
+	background-size:contain;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>Resolution and Compatibility Tests</h1>
+
+	<table>
+		<tr>
+			<td style="background-color:#8b8b8b;"></td>
+			<td>SVG</td>
+			<td>CSS</td>
+			<td>PNG</td>
+			<td>PNG<br><span style="font-size:.5em;text-transform:uppercase;">Retina (2x)</span></td>
+		</tr>
+		<tr>
+			<td>1X</td>
+			<td><div class="svg-1"></div></td>
+			<td><a href="#" class="circle-border-test"><p class="inner-circle"></p></a></td>
+			<td><img src="assets/img/knob-1x.png" /></td>
+			<td><img src="assets/img/knob-2x.png" width="25px" height="26px" /></td>
+		</tr>
+		<tr>
+			<td>2X</td>
+			<td><div class="svg-2"></div></td>
+			<td><div class="two-x"><a href="#" class="circle-border-test"><p class="inner-circle"></p></a></div></td>
+			<td><img src="assets/img/knob-2x.png" /></td>
+			<td><img src="assets/img/knob-4x.png" width="50px" height="52px" /></td>
+		</tr>
+	</table>
+
+</body>
+</html>

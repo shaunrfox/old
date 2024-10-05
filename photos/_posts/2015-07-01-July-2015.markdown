@@ -1,0 +1,34 @@
+---
+layout: photography
+title:  "July 2015"
+date:   2015-07-01
+categories: photos
+base-path: "/assets/img/photos/2015-july"
+home_image: DSCF1131.jpg
+page-title: "Photos from a trip to Lubbock, Texas and Tracy, California."
+
+---
+
+<img src="{{ page.base-path }}/DSCF1040.jpg" />
+<img src="{{ page.base-path }}/DSCF1043.jpg" />
+<img src="{{ page.base-path }}/DSCF1047.jpg" />
+<img src="{{ page.base-path }}/DSCF1055.jpg" />
+<img src="{{ page.base-path }}/DSCF1057.jpg" />
+<img src="{{ page.base-path }}/DSCF1060.jpg" />
+<img src="{{ page.base-path }}/DSCF1061.jpg" />
+<img src="{{ page.base-path }}/DSCF1062.jpg" />
+<img src="{{ page.base-path }}/DSCF1070.jpg" />
+<img src="{{ page.base-path }}/DSCF1095.jpg" />
+<img src="{{ page.base-path }}/DSCF1097.jpg" />
+<img src="{{ page.base-path }}/DSCF1106.jpg" />
+<img src="{{ page.base-path }}/DSCF1112.jpg" />
+<img src="{{ page.base-path }}/DSCF1125.jpg" />
+<img src="{{ page.base-path }}/DSCF1130.jpg" />
+<img src="{{ page.base-path }}/DSCF1131.jpg" />
+<img src="{{ page.base-path }}/DSCF1176.jpg" />
+<img src="{{ page.base-path }}/DSCF1180.jpg" />
+<img src="{{ page.base-path }}/DSCF1192.jpg" />
+<img src="{{ page.base-path }}/DSCF1201.jpg" />
+<img src="{{ page.base-path }}/DSCF1202.jpg" />
+<img src="{{ page.base-path }}/DSCF1215.jpg" />
+<img src="{{ page.base-path }}/DSCF1224.jpg" />

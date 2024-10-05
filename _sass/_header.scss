@@ -1,0 +1,108 @@
+/* HEADER & MENU */
+
+.site-header {
+	position: relative;
+	width:100%;
+	top:0;
+	left: 0;
+	height: auto;
+	padding: 0;
+	@include clearfix();
+	@include breakpoint(medium) { padding-bottom: 0;}
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	right: 30px;
+	border: 1px solid $off-white;
+	@include border-radius-all(120px);
+
+	&:hover {
+		cursor: pointer;
+		border-color: $cyan;
+	}
+
+	@include breakpoint(large) {
+		width: 80px;
+		height: 80px;
+		top: 60px;
+	}
+
+	@include breakpoint(medium) {
+		display: none;
+	}
+}
+
+#menu {
+	position: relative;
+ 	width: 100%;
+ 	@include clearfix();
+
+ 	a {
+	 	display: block;
+		position: relative;
+		float: left;
+		margin-top: -3px;
+		margin-right: 20px;
+		padding: 15px 0;
+		color: $mid-grey;
+	 	@include uppercase();
+	 	@include font-size(1.4);
+		border: none;
+
+		@include breakpoint(small) {
+			margin-right: 13px;
+		}
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: -3px;
+			left: 0;
+			right: 0;
+			height: 3px;
+			background: $cyan;
+		}
+
+		&:hover {
+			color: $cyan;
+		}
+
+	 	&.active {
+			color: $cyan;
+
+			&:before { top: 0; }
+	 	}
+ 	}
+}
+
+.main-title {
+	@include chaparral();
+	@include font-size(6);
+	margin: 30px 0 -1px 0;
+	padding-bottom: 50px;
+	border-bottom: 1px solid $light-grey;
+	color: $off-black;
+
+	@include breakpoint(large) {
+		@include font-size(5.2);
+	}
+
+	@include breakpoint(medium) {
+		@include font-size(4.5);
+	}
+}
+
+.page-title {
+	font-weight: 400;
+	margin: 50px 0;
+	width: percentage(2/3);
+
+	@include breakpoint(medium) {
+		width: 100%;
+	}
+}

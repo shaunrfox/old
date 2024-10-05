@@ -1,0 +1,490 @@
+@charset "utf-8";
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.4.1 
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+ul, dl {
+    list-style:none;
+ width:100%;
+}
+
+a {
+  text-decoration:none;
+  background: none;
+  }
+
+html,body {margin:0;padding:0;} 
+
+/* end reset */
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+/* Theme Name: Liquid Web */
+
+/*! Colors:
+
+Cyan:	#00b3c5
+Aqua:	#00b3c5
+
+------   BAR COLORS IN ORDER:   ------
+"#0080b2", "#007784", "#316e9b", "#0096c5", "#469e90", "#5573a4", "#008dab", "#00668f", "#0e8183", "#009bd7", "#71bc98", "#797db6"
+
+
+*/
+
+
+body {
+	background-color: #e6e7e8;
+	padding: 0;
+	margin: 0;
+	font-family: "Franklin Gothic Book", "Franklin Gothic", "ITC Franklin Gothic Book", "ITC Franklin Gothic", source-sans-pro, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+}
+
+p {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+a {
+	color: #00b3c5;
+	text-decoration: none;
+	-webkit-transition: color .2s ease-in;
+	-moz-transition: color .2s ease-in;
+	-o-transition: color .2s ease-in;
+	transition: color .2s ease-in;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.bar-test {
+	position:absolute;
+	bottom:0;
+	left:200px;
+	width:150px;
+	height:60%;
+	z-index:-8;
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-ms-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+	-webkit-box-shadow:  2px 4px 2px 2px #bebcbc;
+	box-shadow:  2px 4px 2px 2px #bebcbc;
+	
+	background: #1887af; 
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE4ODdhZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDZiOTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #1887af 0%, #006b96 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1887af), color-stop(100%,#006b96));
+	background: -webkit-linear-gradient(top,  #1887af 0%,#006b96 100%);
+	background: -o-linear-gradient(top,  #1887af 0%,#006b96 100%); 
+	background: -ms-linear-gradient(top,  #1887af 0%,#006b96 100%);
+	background: linear-gradient(to bottom,  #1887af 0%,#006b96 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1887af', endColorstr='#006b96',GradientType=0 ); 
+}
+
+.bar-test:hover {
+	-webkit-box-shadow:  5px 10px 10px 3px #bebcbc;
+	box-shadow:  5px 10px 10px 3px #bebcbc;
+	bottom:5px;
+	left:195px;
+	cursor: pointer;
+}
+
+.bar-test-grid {
+	position:absolute;
+	bottom:0;
+	left:400px;
+	width:150px;
+	height:35%;
+	z-index:-8;
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-ms-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+	-webkit-box-shadow:  2px 4px 2px 2px #bebcbc;
+	box-shadow:  2px 4px 2px 2px #bebcbc;
+	background: #24aedf;
+}
+
+.bar-test-grid:hover {
+	-webkit-box-shadow:  5px 10px 10px 3px #bebcbc;
+	box-shadow:  5px 10px 10px 3px #bebcbc;
+	bottom:5px;
+	left:395px;
+	cursor: pointer;
+}
+
+.bar-test-grid table {
+	width: 96%;
+	height: 96%;
+	margin: 2%;
+}
+
+.bar-test-grid td {
+	border:3px solid #24aedf;
+	background-color: #2bb5e7;
+}
+
+
+
+/* ~~~~~~~~~~~~ TOP BAR START ~~~~~~~~~~~~~~~ */
+
+header {
+	height: 50px;
+	width: 100%;
+	background: #fff;
+	-webkit-box-shadow:  1px 1px 3px 2px #ccc;
+	box-shadow:  1px 1px 3px 2px #ccc;
+	z-index: 1;
+	margin:0;
+	position: relative;
+	float: left;
+}
+
+a.logo {
+	background-image: url('../img/liquid-logo.png');
+	background-size: contain;
+	width: 150px;
+	height: 50px;
+	margin:0;
+	padding: 0;
+	float: left;
+	-webkit-transition: opacity .2s ease-in;
+	-moz-transition: opacity .2s ease-in;
+	-o-transition: opacity .2s ease-in;
+	transition: opacity .2s ease-in;
+}
+
+a.logo:hover {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+}
+
+.forward-back {
+	float: right;
+	width: auto;
+	margin-top: 9px;
+	margin-right: 25%;
+}
+
+.forward-back .btn {
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+.left-arrow {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-right: 10px solid #000;
+	border-bottom: 5px solid transparent;
+}
+
+.right-arrow {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 10px solid #000;
+	border-bottom: 5px solid transparent;
+}
+
+.sort-buttons {
+	float: right;
+	width: auto;
+	margin-top:9px;
+	margin-right: 15%;
+}
+
+.sort-buttons,
+.forward-back {
+	-webkit-transition: margin-right .3s ease-in;
+	-moz-transition: margin-right .3s ease-in;
+	-ms-transition: margin-right .3s ease-in;
+	-o-transition: margin-right .3s ease-in;
+	transition: margin-right .3s ease-in;
+}
+
+@media screen and (max-width: 1200px) {
+
+	.sort-buttons {
+		margin-right: 2%;
+	}
+	
+	.forward-back {
+		margin-right: 300px;
+	}
+
+}
+
+@media screen and (min-width: 1900px) {
+	
+	.forward-back {
+		margin-right: 360px;
+	}
+	
+}
+
+.breadcrumbs {
+	height: 30px;
+	width: 99%;
+	background: #dddee0;
+	z-index: -1;
+	margin:0;
+	position: relative;
+	float: left;
+	line-height: 30px;
+	padding-left: 1%;
+	font-size: 14px;
+	color: #6d6e70;
+}
+
+/* ~~~~~~~~~~~~ TOP BAR END ~~~~~~~~~~~~~~~ */
+
+
+
+/* ~~~~~~~~~~~~ SIDEBAR START ~~~~~~~~~~~~~~~ */
+
+.filter-panel {
+	position: absolute;
+	top:0;
+	right: 0;
+	width: 20%;
+	max-width:300px;
+	min-width: 250px;
+	height: 100%;
+	padding: 0 20px 0 20px;
+	background-color: #9d9fa1;
+	background-image: url('../img/background.jpg');
+	background-repeat: repeat;
+	-webkit-box-shadow:  1px 1px 3px 3px #7c7c7c;
+	box-shadow:  1px 1px 3px 3px #7c7c7c;
+	z-index: 2;
+	overflow:auto;
+}
+
+.filter-panel-header {
+	height: 50px;
+	border-bottom: 1px solid #7a7c7e;
+	width: 90%;
+	margin:0;
+	padding: 0 5%;
+}
+
+.header-label {
+	float:left;
+	width: 100%;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #fff;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+
+.filter-panel-header a.reset {
+	line-height: 50px;
+}
+
+a.reset {
+	width: 30%;
+	color: #868686;
+	text-align: right;
+	float: right;
+	font-size: 10px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+
+a.reset:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.filter-panel .grouping {
+	width: 90%;
+	margin:0;
+	padding: 20px 5%;
+	border-top: 1px solid #b5b7b9;
+	border-bottom: 1px solid #7a7c7e;
+}
+
+.filter-panel .grouping:last-child {
+	border-bottom: none;
+}
+
+.filter-panel button {
+	margin-bottom: 5px;
+}
+
+.filter-panel p.label {
+	width:100%;
+	padding: 0;
+	margin-bottom: 10px;
+	font-family: "Franklin Gothic Book", "Franklin Gothic", "ITC Franklin Gothic Book", "ITC Franklin Gothic", source-sans-pro, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+	font-weight: normal;
+	background: none;
+	font-size: 16px;
+	color: #fff;
+	text-shadow: 1px 0px 0px #898989;
+}
+
+.checkbox {
+	padding:10px 0 0 20px;
+}
+
+.checkbox span {
+	font-size: 12px;
+	color: #3d7b93;
+}
+
+label.btn {
+	margin-bottom: 5px;
+}
+
+label.btn input,
+label.label-background input {
+	margin-left:-5px;
+	margin-top:-5px;
+}
+
+label.btn input:focus {
+	outline: none;
+}
+
+form.author label.btn,
+form.last-modified label.btn {
+	width: 85%;
+	text-align: left;
+}
+
+/*! SLIDER */
+
+.ui-slider-horizontal { 
+    height: 6px;
+    margin-top: 10px;  
+    border:1px solid #afafaf;                    
+    background: #000000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #000000 0%, #727272 61%, #e5e5e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(61%,#727272), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #000000 0%,#727272 61%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #000000 0%,#727272 61%,#e5e5e5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #000000 0%,#727272 61%,#e5e5e5 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #000000 0%,#727272 61%,#e5e5e5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+
+.ui-slider-horizontal .ui-slider-handle { top: -.6em; margin-left: -.6em; }
+.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+.ui-slider-horizontal .ui-slider-range-min { left: 0; }
+.ui-slider-horizontal .ui-slider-range-max { right: 0; }
+
+.ui-slider .ui-slider-handle { 
+    position: absolute; 
+    z-index: 2; 
+    display: inline-block;
+    width: 25px;
+    height: 26px;
+    background: none;
+    background-image: url('../img/knob-2x.png');
+    background-size: contain;
+    border: none;
+}
+
+.ui-slider .ui-slider-handle:hover {
+	cursor: pointer;
+}
+
+.ui-slider .ui-slider-handle:focus {
+	outline: none;
+}
+
+.ui-widget-header { 
+    border: none; 
+    background: #00b3c5; 
+    color: #000; 
+    font-weight: bold; 
+    opacity: 0.5;
+}
+
+/* ~~~~~~~~~~~~ SIDEBAR END ~~~~~~~~~~~~~~~ */
+
+
+
+
+/* ~~~~~~~~~~~~ FOOTER START ~~~~~~~~~~~~~~~ */
+
+footer {
+	width: 100%;
+	height: 40px;
+	background-color: #fff;
+	-webkit-box-shadow:  1px 1px 3px 2px #ccc;
+	box-shadow:  1px 1px 3px 2px #ccc;
+	z-index: 1;
+	margin:0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+/* ~~~~~~~~~~~~ FOOTER END ~~~~~~~~~~~~~~~ */
+
+
+
+/* Extras */
+
+.half-bump {
+	width: 100%;
+	height: 15px;
+}
+
+.bump {
+    width: 100%;
+    height: 30px;
+}
+
+.bumpbump {
+    width: 100%;
+    height: 45px;
+}

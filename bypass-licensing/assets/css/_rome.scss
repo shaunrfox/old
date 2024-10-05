@@ -1,0 +1,164 @@
+/**
+ * rome - Customizable date (and time) picker. Opt-in UI, no jQuery!
+ * @version v1.2.0
+ * @link https://github.com/bevacqua/rome
+ * @license MIT
+ */
+
+.datepicker { position: relative; }
+
+#startDateWrapper,
+#endDateWrapper {
+  position: relative;
+  float: left;
+  width: 45%;
+  height: 40px;
+}
+
+.rd-container {
+  position: relative;
+  display: inline-block;
+  border: 1px solid $light-grey;
+  background-color: $off-white;
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+  @include box-shadow(2px 2px 3px rgba($off-black, .2));
+  z-index: 10000;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 54px;
+    background: $light-grey;
+    z-index: -1;
+  }
+}
+
+.rd-container-attachment { position: absolute; }
+
+.rd-month {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.rd-month:last-child { margin-right: 0; }
+
+.rd-back,
+.rd-next {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  color: $dark-grey;
+  margin-top: -3px;
+
+  &:hover { color: $black; }
+}
+
+.rd-back[disabled],
+.rd-next[disabled] { cursor: default; }
+
+.rd-back {
+  float: left;
+  margin-left: 15px;
+}
+
+.rd-next {
+  float: right;
+  margin-right: 15px;
+}
+
+.rd-back:before {
+  display: block;
+  content: '\2190';
+}
+
+.rd-next:before {
+  display: block;
+  content: '\2192';
+}
+
+.rd-days {
+  padding: 10px 10px 0px 17px;
+  margin: 10px auto;
+  display: block;
+}
+
+.rd-month { width: 242px; }
+
+.rd-day-head,
+.rd-day-body {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  line-height: 32px;
+}
+
+.rd-days-row {
+  display: block;
+  float: left;
+  border-bottom: 1px solid $light-grey;
+  padding: 5px 0;
+
+  &:last-child { border: none; }
+}
+
+.rd-day-body {
+  cursor: pointer;
+  text-align: center;
+  // padding: 5px;
+
+  &:hover {
+    background: $light-blue;
+    color: $white;
+  }
+}
+.rd-day-selected,
+.rd-time-selected,
+.rd-time-option:hover {
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+}
+.rd-day-prev-month,
+.rd-day-next-month {
+  color: #999;
+}
+.rd-day-disabled,
+.rd-day-disabled:hover {
+  cursor: default;
+  color: $light-grey;
+  background: none;
+}
+.rd-time {
+  position: relative;
+  display: inline-block;
+  margin-top: 5px;
+  min-width: 80px;
+}
+.rd-time-list {
+  display: none;
+  position: absolute;
+  overflow-y: scroll;
+  max-height: 160px;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  color: #333;
+}
+.rd-time-selected {
+  padding: 5px;
+}
+.rd-time-option {
+  padding: 5px;
+}
+.rd-day-concealed {
+  visibility: hidden;
+}

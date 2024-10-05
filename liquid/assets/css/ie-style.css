@@ -1,0 +1,39 @@
+.sharepoint-site form .btn:nth-child(1):hover {
+	background-color: #a31e21;
+}
+
+.sharepoint-site form .btn:nth-child(2):hover {
+	background-color: #027fa1;
+}
+
+.sharepoint-site form .btn:nth-child(3):hover {
+	background-color: #bead30;
+}
+
+.sharepoint-site form .btn:nth-child(4):hover {
+	background-color: #321040;
+}
+
+.sharepoint-site form .btn:nth-child(5):hover {
+	background-color: #528c3f;
+}
+
+.sharepoint-site form .btn:nth-child(6):hover {
+	background-color: #c16528;
+}
+
+.sharepoint-site form .btn:nth-child(7):hover {
+	background-color: #5a2d4d;
+}
+
+.sharepoint-site form .btn:nth-child(8):hover {
+	background-color: #007471;
+}
+
+.sharepoint-site form .btn:nth-child(9):hover {
+	background-color: #bb8d2d;
+}
+
+.sharepoint-site form .btn:nth-child(10):hover {
+	background-color: #47527a;
+}

@@ -1,0 +1,20 @@
+---
+layout: photography
+title:  "Washington DC 2014"
+date:   2014-02-01
+categories: photos
+base-path: "/assets/img/photos/2014-dc"
+home_image: lincoln.jpg
+page-title: "Shots from walking around downtown DC."
+
+---
+
+<img src="{{ page.base-path }}/airport.jpg" />
+<img src="{{ page.base-path }}/i-have-a-dream.jpg" />
+<img src="{{ page.base-path }}/lincoln.jpg" />
+<img src="{{ page.base-path }}/memorial.jpg" />
+<img src="{{ page.base-path }}/reflection.jpg" />
+<img src="{{ page.base-path }}/scouts.jpg" />
+<img src="{{ page.base-path }}/suit.jpg" />
+<img src="{{ page.base-path }}/sunlight.jpg" />
+<img src="{{ page.base-path }}/window.jpg" />

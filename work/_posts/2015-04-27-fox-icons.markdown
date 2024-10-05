@@ -1,0 +1,10 @@
+---
+layout: work-icons
+title:  "Fox Icons"
+date:   2015-04-27
+categories: work
+redirect_from: "/icons"
+home_image: fox-icons-home.jpg
+home-description: "I find that in most situations a custom solution far surpasses an acquired one, and icons are no exception. I&rsquo;ve created this icon set over many years and add to it as I go based on the needs of my projects."
+page-title: "These are the <strong>Fox Icons</strong>, a custom icon set by yours truly."
+---

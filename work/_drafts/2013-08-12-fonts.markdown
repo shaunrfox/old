@@ -1,0 +1,12 @@
+---
+layout: work
+title:  "Fonts I Make"
+date:   2013-08-12
+categories: Projects
+home_image: fonts.jpg
+header_image: fonts-header.png
+header_color: 65672b
+work_images: ["fonts-1.jpg", "fonts-2.jpg", "fonts-3.jpg", "fonts-4.jpg", "fonts-5.jpg", "fonts-6.jpg"]
+---
+
+This is a collection of &ldquo;fonts&rdquo; I&rsquo;ve made over the years. A couple of them have been used for projects, but otherwise, they&rsquo;re just a product of me dorking around.

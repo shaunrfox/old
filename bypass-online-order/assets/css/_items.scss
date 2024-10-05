@@ -1,0 +1,195 @@
+/*
+ * * * * * * * * * * * * * * * * * * *
+ * Items
+ * * * * * * * * * * * * * * * * * * *
+ */
+
+.items {
+	width: 100%;
+	@extend %clearfix;
+}
+
+.item {
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+  height: 50px;
+  border: 1px solid $light-grey;
+  background: $white;
+  margin-bottom: -1px;
+  overflow: hidden;
+}
+
+.item-quantity,
+.item-name,
+.item-price,
+.edit-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  line-height: 50px;
+  transition: 200ms ease all;
+}
+
+$quantity-width: 50px;
+$price-width: 90px;
+
+.item-quantity {
+  left: 0;
+  width: $quantity-width;
+  text-align: center;
+  @extend %source-sans-semibold;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 0;
+    width: 1px;
+    background: $light-grey;
+  }
+}
+
+.item-name {
+  left: $quantity-width;
+  right: $price-width;
+  @extend %truncate;
+  @include font-size(2.2);
+  padding-left: 10px;
+
+  @media (max-width: 800px) {
+  	@include font-size(1.8);
+  }
+}
+
+.item-price {
+  right: 0;
+  width: $price-width;
+  text-align: center;
+  @extend %source-sans-semibold;
+}
+
+.edit-item {
+  width: 50px;
+  padding: 5px;
+  background: $white;
+  border: 1px solid $light-grey;
+  margin: -1px;
+  right: -50px;
+
+  &:focus { outline: none; }
+
+  svg {
+    fill: $light-grey;
+    transition: 200ms ease all;
+  }
+}
+
+.item:hover {
+  cursor: pointer;
+
+  .item-name { right: $price-width + 50px; }
+  .item-price { right: 50px; }
+  .edit-item {
+    right: 0;
+
+    &:hover {
+      background: $light-blue;
+
+      svg { fill: $white; }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+	.item {
+		.item-name { right: $price-width + 50px; }
+	  .item-price { right: 50px; }
+	  .edit-item {
+	    right: 0;
+
+	    &:hover {
+	      background: $light-blue;
+
+	      svg { fill: $white; }
+	    }
+	  }
+	}
+}
+
+.item.edit {
+	height: auto;
+	padding: 0 20px 0 30px;
+	background: lighten($light-blue, 40);
+	overflow: visible;
+
+	&:hover { cursor: default; }
+
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		width: 10px;
+		background: $light-blue;
+	}
+
+	.three-quarters,
+	.one-quarter {
+		h5,
+		.dropdown {
+			float: left;
+			width: 100%;
+		}
+	}
+
+	.dropdown > button {
+		width: 100%;
+		height: 40px;
+		padding-right: 40px;
+	}
+
+	.quantity-field { text-align: center; }
+
+	footer {
+		float: left;
+		width: 100%;
+		margin-top: 20px;
+		border-top: 1px solid $light-blue;
+		padding: 10px 0;
+
+		.item-price {
+			position: relative;
+			top: auto;
+			bottom: auto;
+			right: auto;
+			width: auto;
+			float: left;
+			height: 30px;
+			line-height: 32px;
+			@include font-size(2);
+		}
+
+		.remove-item {
+			background: none;
+			border: none;
+			float: right;
+			color: rgba($red, .5);
+			@include font-size(1.2);
+			padding: 0;
+			margin: 10px 10px 0 0;
+			border-bottom: 1px solid currentColor;
+
+			&:hover {
+				color: $red;
+			}
+		}
+
+		.button-green { float: right; }
+	}
+}

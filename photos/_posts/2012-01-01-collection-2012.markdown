@@ -1,0 +1,14 @@
+---
+layout: photography
+title:  "Collection 2012"
+date:   2012-01-01
+categories: photos
+base-path: "/assets/img/photos/2012-collection"
+home_image: brother-jeremy.jpg
+page-title: "A collection of Jeremys from 2012."
+
+---
+
+<img src="{{ page.base-path }}/brother-jeremy.jpg" />
+<img src="{{ page.base-path }}/jeremy-phone.jpg" />
+<img src="{{ page.base-path }}/jeremy-traveling.jpg" />

@@ -1,0 +1,57 @@
+.container.photos {
+	max-width: 1200px;
+	@include clearfix();
+	padding: 0;
+}
+
+.photo-post {
+	width: percentage(1/3);
+	height: auto;
+	float: left;
+	padding: 15px;
+	@include clearfix();
+
+	@include breakpoint(large) {
+		width: 50%;
+	}
+
+	@include breakpoint(medium-step) {
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 30px;
+	}
+
+	.photo-link {
+		display: block;
+		width: 100%;
+		height: 0;
+		padding-bottom: 100%;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		border-bottom: 1px solid transparent;
+		transition: ease all 300ms;
+
+		&:hover {
+			transform: scale(1.02);
+		}
+	}
+
+	.title-link h2 {
+		display: block;
+    float: left;
+    @include font-size(2.5);
+    color: $off-black;
+    font-weight: 700;
+    border-bottom: 1px solid transparent;
+    margin: 10px 0;
+
+    @include breakpoint(medium) {
+			@include font-size(1.8);
+		}
+
+    &:hover {
+      color: $cyan;
+    }
+	}
+}

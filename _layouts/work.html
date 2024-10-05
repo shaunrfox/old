@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<section class="project-wrapper">
+	<div class="container project">
+		<div class="column project-description">
+			<div class="post">
+				{{ content }}
+			</div>
+		</div>
+
+		<div class="column project-images">
+			{% for image in page.work_images %}
+				<img src="/assets/img/work-images/{{ image }}">
+			{% endfor %}
+		</div>
+	</div>
+</section>

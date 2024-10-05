@@ -1,0 +1,23 @@
+{
+  "name": "fox-icons",
+  "version": "1.0.0",
+  "homepage": "http://shaunfox.com/projects/fox-icons.html",
+  "authors": [
+    "Shaun Fox"
+  ],
+  "description": "Hand crafted SVG icons by Shaun Fox. Free to use, not to sell.",
+  "main": "fox-icons.svg",
+  "moduleType": [],
+  "keywords": [
+    "svg",
+    "icons"
+  ],
+  "license": "GPL V2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

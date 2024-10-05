@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html>
+<head>
+
+	<title>Liquid Assets</title>
+
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+    $(function() {
+        $( "#slider-range" ).slider({
+            range: true,
+            min: 0,
+            max: 500,
+            values: [ 0, 500 ],
+            slide: function( event, ui ) {
+                $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+            }
+        });
+        $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+            " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+    });
+    
+    $(function() {
+        $( "#slider-range2" ).slider({
+            range: true,
+            min: 0,
+            max: 500,
+            values: [ 0, 500 ],
+            slide: function( event, ui ) {
+                $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+            }
+        });
+        $( "#amount" ).val( "$" + $( "#slider-range2" ).slider( "values", 0 ) +
+            " - $" + $( "#slider-range2" ).slider( "values", 1 ) );
+    });
+    </script>
+    
+    <!--Responsive Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--include Source Sans Pro font-->
+    <script src="http://use.edgefonts.net/source-sans-pro.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" media="screen">
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="assets/css/update.css" media="screen">
+    
+    <!--[if IE]>
+		<!--<link rel="stylesheet" type="text/css" href="assets/css/ie-style.css" />
+	<![endif]-->
+
+</head>
+<body>
+
+<header>
+	<a href="" class="logo" title="Liquid"></a>
+	
+	<div class="forward-back">
+		<button class="btn"><div class="left-arrow"></div></button>
+		<button class="btn disabled"><div class="right-arrow"></div></button>
+	</div>
+	
+	<div class="sort-buttons">
+		<form class="form-inline">
+			<span class="help-inline">Group By:</span>
+			<button class="btn">Date Created</button>
+			<button class="btn">Date Modified</button>
+			<button class="btn">Document Type</button>
+			<button class="btn">Site</button>
+		</form>
+	</div>
+	
+</header>
+
+	<div class="breadcrumbs"><a href="">Document Type</a> > <a href="">Date Created</a> > <a href="">William Riker</a></div>
+
+<div class="filter-panel">
+	
+	<div class="filter-panel-header">
+		<p class="header-label">Filters <a class="reset" href="">Reset</a></p>
+	</div>
+	
+	<div class="grouping">
+		<p class="label">Date Created <a class="reset" href="">Reset</a></p> 
+		<div style="width:100%;height:30px;background-color:#fff;line-height:30px;">&nbsp;Calendar goes here</div>
+		<div id="slider-range"></div>
+		
+		<div class="bump"></div>
+		
+		<p class="label">Date Modified <a class="reset" href="">Reset</a></p> 
+		<div style="width:100%;height:30px;background-color:#fff;line-height:30px;">&nbsp;Calendar goes here</div>
+		<div id="slider-range2"></div>
+	</div>
+	
+	<div class="grouping">
+	
+		<p class="label">Sharepoint Site <a class="reset" href="">Reset</a></p>
+		
+		<div class="sharepoint-site">		
+			<form>
+				<label class="btn">
+					<input type="checkbox"> &nbsp;Doctors
+				</label>
+				<label class="btn">
+					<input type="checkbox"> &nbsp;Lawyers
+				</label>
+				<label class="btn">
+					<input type="checkbox"> &nbsp;Dogs
+				</label>
+				<label class="btn">
+					<input type="checkbox"> &nbsp;Cats
+				</label>
+			</form>
+		</div><!--/sharepoint-site-->
+		
+		<div style="clear:both;"></div>
+	
+	</div>
+	
+	<div class="grouping">
+		
+		<p class="label">Document Type <a class="reset" href="">Reset</a></p>
+		<form>
+			<label class="btn">
+				<input type="checkbox"> &nbsp;.doc
+			</label>
+			<label class="btn">
+				<input type="checkbox"> &nbsp;.xls
+			</label>
+			<label class="btn">
+				<input type="checkbox"> &nbsp;.ppt
+			</label>
+			<label class="btn">
+				<input type="checkbox"> &nbsp;.pdf
+			</label>
+			<label class="btn">
+				<input type="checkbox"> &nbsp;.jpg
+			</label>
+			<label class="btn">
+				<input type="checkbox"> &nbsp;.psd
+			</label>
+			<label class="btn">
+				<input type="checkbox"> &nbsp;.ai
+			</label>
+		</form>
+		
+	</div>
+	
+	<div class="grouping">
+		<p class="label">Author <a class="reset" href="">Reset</a></p>
+		<form class="author">
+			<label class="btn flat">
+				<input type="checkbox"> &nbsp;Casey Gum (150)
+			</label>
+			<label class="btn flat">
+				<input type="checkbox"> &nbsp;Alexander Bell (97)
+			</label>
+			<label class="btn flat">
+				<input type="checkbox"> &nbsp;Michael Jordan (62)
+			</label>
+			<label class="btn flat">
+				<input type="checkbox"> &nbsp;William Riker (33)
+			</label>
+			<label class="btn flat">
+				<input type="checkbox"> &nbsp;Robinson Crusoe (10)
+			</label>
+		</form>
+		
+		<div class="half-bump"></div>
+		
+		<p class="label">Last Modified by <a class="reset" href="">Reset</a></p>
+		<form class="last-modified">
+			<label class="btn flat">
+				<input type="checkbox"> &nbsp;Casey Gum (150)
+			</label>
+			<label class="btn flat">
+				<input type="checkbox"> &nbsp;Alexander Bell (97)
+			</label>
+			<label class="btn flat">
+				<input type="checkbox"> &nbsp;Michael Jordan (62)
+			</label>
+			<label class="btn flat">
+				<input type="checkbox"> &nbsp;William Riker (33)
+			</label>
+			<label class="btn flat">
+				<input type="checkbox"> &nbsp;Robinson Crusoe (10)
+			</label>
+		</form>
+		
+	</div>
+	
+</div>
+	
+</div><!--/filter-panel-->
+
+<section>
+	<div class="bar-test"></div>
+	<div class="bar-test-grid">
+		<table>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+		</table>
+	</div>
+</section>
+
+<footer>
+
+</footer>
+
+</body>
+</html>

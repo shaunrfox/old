@@ -1,0 +1,94 @@
+/*~~~~~~~~~~~ GRID ~~~~~~~~~~~~~~*/
+
+.container {
+    width: 100%;
+    max-width: 1400px; // need to work this out
+    height: auto;
+    margin: 0 auto;
+    padding: 0 5%;
+    .box-sizing;
+    clear: both;
+    display: block;
+    position: relative;
+}
+
+.onecol, 
+.twocol, 
+.threecol, 
+.threecol-2, 
+.fourcol, 
+.fourcol-3, 
+.fivecol, 
+.fivecol-2, 
+.fivecol-3, 
+.fivecol-4, 
+.sixcol {	
+	width: 98%;
+	float: left;
+	margin: 1%;
+	padding: 0;
+	height: auto;	
+	display: block;
+	overflow: hidden;
+	.box-sizing;
+}
+
+// ~~~~~~~~~ Small Tablets + iPhone(portrait) 
+
+@media screen and (min-width: 480px) {
+
+	.twocol {
+		width: 48%;
+	}
+	
+	.threecol {
+	    width: 31.333%;
+	}
+	
+	.threecol-2 {
+	    width: 64.667%;
+	}
+
+}// end small portrait 
+
+
+
+// ~~~~~~~~~ iPad Portrait 
+@media screen and (min-width: 768px) {
+
+	.fourcol {
+	    width: 23%;
+	}
+	
+	.fourcol-3 {
+	    width: 73%;
+	}
+
+}// ipad port 
+
+
+
+// ~~~~~~~~~ iPad(landscape) + Desktops 
+@media screen and (min-width: 960px) {
+
+	.fivecol {
+	    width: 18%;
+	}
+	
+	.fivecol-2 {
+	    width: 38%;
+	}
+	
+	.fivecol-3 {
+	    width: 58%;
+	}
+	
+	.fivecol-4 {
+	    width: 78%;
+	}
+	
+	.sixcol {
+	    width: 14.667%;
+	}
+
+}// iPad (landscape) + Desktop

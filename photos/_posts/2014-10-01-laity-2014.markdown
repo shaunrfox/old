@@ -1,0 +1,21 @@
+---
+layout: photography
+title:  "Laity Lodge 2014"
+date:   2014-10-01
+categories: photos
+base-path: "/assets/img/photos/2014-laity"
+home_image: frio-boat.jpg
+page-title: "I always tell people Laity Lodge is the most beautiful place in Texas. Here&rsquo;s the proof.&emsp;:)"
+
+---
+
+<img src="{{ page.base-path }}/doug-hanks.jpg" />
+<img src="{{ page.base-path }}/frio-boat.jpg" />
+<img src="{{ page.base-path }}/frio-canoe.jpg" />
+<img src="{{ page.base-path }}/frio-river-diptych.jpg" />
+<img src="{{ page.base-path }}/frio-river.jpg" />
+<img src="{{ page.base-path }}/laity-fireside-diptych-2.jpg" />
+<img src="{{ page.base-path }}/laity-fireside-diptych.jpg" />
+<img src="{{ page.base-path }}/malcolm-guite.jpg" />
+<img src="{{ page.base-path }}/mighty-purple-diptych.jpg" />
+<img src="{{ page.base-path }}/sedrick-huckaby.jpg" />

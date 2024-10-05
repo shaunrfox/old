@@ -1,0 +1,21 @@
+---
+layout: photography
+title:  "Collection 2005"
+date:   2005-01-01
+categories: photos
+base-path: "/assets/img/photos/2005-collection"
+home_image: amaryllis.jpg
+page-title: "Some favorites from 2005."
+
+---
+
+<img src="{{ page.base-path }}/amaryllis.jpg" />
+<img src="{{ page.base-path }}/butterflies.jpg" />
+<img src="{{ page.base-path }}/butterfly.jpg" />
+<img src="{{ page.base-path }}/dirtys.jpg" />
+<img src="{{ page.base-path }}/flowers-2.jpg" />
+<img src="{{ page.base-path }}/flowers.jpg" />
+<img src="{{ page.base-path }}/hibiscus-bw.jpg" />
+<img src="{{ page.base-path }}/hibiscus.jpg" />
+<img src="{{ page.base-path }}/kauai-breakfast.jpg" />
+<img src="{{ page.base-path }}/mirror.jpg" />

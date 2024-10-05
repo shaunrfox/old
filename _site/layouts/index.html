@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html>
+<head>
+
+	<title>Layouts</title>
+	
+	<!--Responsive Viewport-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!--Source Sans-->
+	<script src="assets/js/source-sans-pro.js"></script>
+	
+	<link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+	
+	<header>
+		Layouts
+	</header>
+
+	<div class="container" id="catch"></div>
+	
+<script>
+
+//var imageNames = ["1.png","2.png","3.png","4.png","5.png","6.png","7.png","8.png","9.png","10.png","11.png","12.png","13.png","14.png","15.png","16.png","17.png","18.png","19.png","20.png","21.png","22.png","23.png","24.png","25.png","26.png","27.png","28.png","29.png","30.png","31.png","32.png","33.png","34.png","35.png","36.png","37.png","38.png","39.png","40.png","41.png","42.png","43.png","44.png","45.png","46.png","47.png","48.png","49.png"];
+
+var imageNames = [];
+
+for (var index = 1; index < 50; index++) {
+	imageNames.push([index] + ".png");
+}
+
+//console.log(imageNames);
+
+var tempNames = "";
+
+var usedNames = [];
+
+function getRandomNumber() {
+	return Math.floor(Math.random()*imageNames.length);
+}
+
+function beenUsed(newNumber) {
+	for (var index = 0; index < usedNames.length; index++) {
+		if (newNumber === usedNames[index]) {
+			return true;
+		}
+	}
+	return false
+}
+
+for (var index = 0; index < imageNames.length; index++) {
+	var randomNumber = getRandomNumber();
+	
+	while (beenUsed(randomNumber)) {
+		randomNumber = getRandomNumber();
+	}
+	
+	usedNames.push(randomNumber);
+	
+	var randomName = imageNames[randomNumber];
+	tempNames = tempNames + "<img src='assets/img/" + (randomName) + "'/>";
+}
+
+document.getElementById("catch").innerHTML = tempNames;
+
+/*
+var tempImages = "";
+
+var usedNumbers = [];
+
+function getRandomNumber() { 
+	return Math.floor(Math.random()*imageNames.length);
+}
+
+function beenUsed(newNumber) {
+	for (var index = 0; index < usedNumbers.length; index++) {
+		if (newNumber === usedNumbers[index]) {
+			return true;
+		}
+	}
+	return false
+}
+
+for (var index = 0; index < imageNames.length; index++) {
+	var randomNumber = getRandomNumber();
+	
+	while (beenUsed(randomNumber)) {
+		randomNumber = getRandomNumber();
+	}
+	
+	usedNumbers.push(randomNumber);
+	
+	var randomName = imageNames[randomNumber];
+	//tempImages = tempImages + "<div class='fivecol'><img src='assest/img/" + (randomName) + "'/></div>";
+	tempImages = tempImages(randomName);
+}
+
+document.getElementById("catch").innerHTML = tempImages;
+*/
+	
+</script>
+
+
+
+<script>
+
+var bob = ["Haley", "Ringtail", "Pizza", 2, 5, 77, true, false];
+
+var newThing = [];
+
+for (var index = 0; index < bob.length; index++) {
+	newThing.push(bob[index]);
+}
+
+console.log(newThing);
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+/*~~~~~~~~~~~ GRID ~~~~~~~~~~~~~~*/
+
+// Media Queries
+@mixin breakpoint($point) {
+	@if $point == large {
+		@media (max-width: 1100px) { @content; }
+	} @else if $point == medium {
+		@media (max-width: 768px) { @content; }
+	} @else if $point == small {
+		@media (max-width: 480px)  { @content; }
+	}
+}
+
+// Media Query Syntax: // @include breakpoint(small) { width: 60%; }
+
+
+
+.container {
+	@extend %box-sizing;
+	@extend %clearfix;
+    // width: 100%;
+    // height: auto;
+    margin: 0 auto;
+    clear: both;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.col {	
+	@extend %box-sizing;
+	@extend %clearfix;
+	float: left;
+	padding: 0 1%;
+	width: 20%; 
+	height: percentage(1/4);	
+	display: block;
+	position: relative;
+	text-align: center;
+	padding: auto 10px;
+	line-height: 1.5em;
+    position: relative;
+
+    span {
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        margin-top: -25px;
+    }
+    
+    @include breakpoint(large) { 
+    	// padding: 50px 10px;
+    	width: 33.333%;
+    	height: percentage(1/7);
+    }
+
+    @include breakpoint(medium) { 
+    	// padding: 80px 10px;
+    	width: 50%;
+    	height: percentage(1/10);
+    }
+
+    @include breakpoint(small) { 
+    	// padding: 120px 10px;
+    	width: 100%;
+    	height: percentage(1/1);
+    }
+}

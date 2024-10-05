@@ -1,0 +1,13 @@
+---
+layout: work
+title:  "Cancer Alliance of Texas"
+date:   2014-04-29
+categories: Projects
+home_image: cat-home.jpg
+header_image: cat-header.png
+header_color: b5dde9
+work_images: ["cancer-alliance-texas.jpg"]
+---
+
+I was commissioned to create an infographic that illustrated the advancement of the prevalence of obesity in Texas. The data strives to show the correlation between
+obesity and cancer.
