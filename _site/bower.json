@@ -1,19 +1,12 @@
 {
   "name": "shaun-fox-website",
   "version": "1.0.0",
-  "homepage": "http://shaunfox.com",
-  "authors": [
-    "Shaun Fox"
-  ],
+  "homepage": "https://okshaun.com",
+  "authors": ["Shaun Fox"],
   "description": "My Portfolio",
   "license": "MIT",
   "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "assets/svg"
-  ],
+  "ignore": ["**/.*", "node_modules", "bower_components", "assets/svg"],
   "dependencies": {
     "fox-icons": "*"
   }

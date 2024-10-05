@@ -1,7 +1,7 @@
 name: shaunfox.com
-site.name: shaunfox.com
+site.name: old shaunfox.com
 permalink: /:categories/:title.html
-url: http://shaunfox.com
+url: https://okshaun.com
 paginate_per_category: true
 highlighter: rouge
 plugins:
@@ -10,3 +10,4 @@ plugins:
 
 # Build settings
 markdown: kramdown
+baseurl: /shaunrfox-2015
