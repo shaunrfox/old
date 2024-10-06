@@ -10,4 +10,4 @@ plugins:
 
 # Build settings
 markdown: kramdown
-baseurl: /shaunrfox-2015
+baseurl: /old
