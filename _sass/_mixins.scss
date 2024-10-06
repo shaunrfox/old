@@ -31,9 +31,9 @@
 // }
 
 // Slightly darken a color
-@function shade($color, $percentage) {
-  @return mix($color, black, $percentage);
-}
+// @function shade($color, $percentage) {
+//   @return mix($color, black, $percentage);
+// }
 
 // Vertical align anything
 @mixin vertical-align {

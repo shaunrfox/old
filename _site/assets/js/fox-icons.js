@@ -1,4 +1,4 @@
-(function() {
+(function () {
 	var iconList;
 	var searchInput;
 	var clearButton;
@@ -6,7 +6,7 @@
 
 	// Generate Icons
 	function generateIcons() {
-		iconList.each(function() {
+		iconList.each(function () {
 			var thisIconID = $(this).attr("id");
 			// console.log(thisIconID);
 
@@ -24,7 +24,7 @@
 	// Count Icons
 	function countIcons() {
 		var iconCount = iconList.length;
-		$(".count").append( " (" + iconCount + " and counting!)" );
+		$(".count").append(" (" + iconCount + " and counting!)");
 	};
 
 	// Check window hash and put value into search input
@@ -46,19 +46,19 @@
 	}
 
 	function toggleIconButtons(filterString) {
-		$(".icon-wrapper").each(function(index, element) {
-			 var dataName = $(this).attr("data-name");
+		$(".icon-wrapper").each(function (index, element) {
+			var dataName = $(this).attr("data-name");
 
-			 if ( dataName.indexOf(filterString) !== -1 ) {
-					$(this).show();
-					return;
-			 }
+			if (dataName.indexOf(filterString) !== -1) {
+				$(this).show();
+				return;
+			}
 
-			 $(this).hide();
+			$(this).hide();
 		});
 	}
 
-	function setHash(hash){
+	function setHash(hash) {
 		if (hash === "") {
 			window.location.hash = "";
 			return;

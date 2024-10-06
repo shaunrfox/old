@@ -83,7 +83,7 @@
 .icon-wrapper {
 	background: none;
 	position: relative;
-	width: percentage(1/5);
+	width: 20%;
 	height: 160px;
 	padding-bottom: 40px;
 	border: 5px solid $white;
@@ -114,8 +114,8 @@
 		.title { color: $off-black; }
 	}
 
-  @include breakpoint(large) { width: percentage(1/4); }
-  @include breakpoint(medium) { width: percentage(1/3); }
+  @include breakpoint(large) { width: 25%; }
+  @include breakpoint(medium) { width: 33.33%; }
   @include breakpoint(small) {
   	height: 120px;
   	@include font-size(1.2);

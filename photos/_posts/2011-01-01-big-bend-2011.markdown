@@ -1,41 +1,40 @@
 ---
 layout: photography
-title:  "Big Bend 2011"
-date:   2011-01-01
+title: "Big Bend 2011"
+date: 2011-01-01
 categories: photos
 base-path: "/assets/img/photos/2011-big-bend"
 home_image: jrome.jpg
 page-title: "I spent a quick two days in Big Bend snapping photos alongside Jeremy Rodgers filming. We captured as much as we could and we still only saw a small fraction of it."
-
 ---
 
-<img src="{{ page.base-path }}/big-bend-dog.jpg" />
-<img src="{{ page.base-path }}/big-bend-hill.jpg" />
-<img src="{{ page.base-path }}/big-bend-valley.jpg" />
-<img src="{{ page.base-path }}/cactus-1.jpg" />
-<img src="{{ page.base-path }}/cactus-fog.jpg" />
-<img src="{{ page.base-path }}/cactus-portrait.jpg" />
-<img src="{{ page.base-path }}/cactus-valley.jpg" />
-<img src="{{ page.base-path }}/door.jpg" />
-<img src="{{ page.base-path }}/fog-rolling-in-1.jpg" />
-<img src="{{ page.base-path }}/fog-rolling-in-2.jpg" />
-<img src="{{ page.base-path }}/hills.jpg" />
-<img src="{{ page.base-path }}/jeremy-cutoff.jpg" />
-<img src="{{ page.base-path }}/jeremy-phone.jpg" />
-<img src="{{ page.base-path }}/jeremy-pondering.jpg" />
-<img src="{{ page.base-path }}/jeremy-road-filming.jpg" />
-<img src="{{ page.base-path }}/jrome.jpg" />
-<img src="{{ page.base-path }}/night-shot-1.jpg" />
-<img src="{{ page.base-path }}/night-shot-2.jpg" />
-<img src="{{ page.base-path }}/night-shot-3.jpg" />
-<img src="{{ page.base-path }}/rio-grande-1.jpg" />
-<img src="{{ page.base-path }}/rio-grande-2.jpg" />
-<img src="{{ page.base-path }}/rio-grande-3.jpg" />
-<img src="{{ page.base-path }}/river-reflection.jpg" />
-<img src="{{ page.base-path }}/road.jpg" />
-<img src="{{ page.base-path }}/spider-web.jpg" />
-<img src="{{ page.base-path }}/storm-coming.jpg" />
-<img src="{{ page.base-path }}/sunrise-crest.jpg" />
-<img src="{{ page.base-path }}/valley-yucca.jpg" />
-<img src="{{ page.base-path }}/windmill.jpg" />
-<img src="{{ page.base-path }}/yucca.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/big-bend-dog.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/big-bend-hill.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/big-bend-valley.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/cactus-1.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/cactus-fog.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/cactus-portrait.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/cactus-valley.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/door.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/fog-rolling-in-1.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/fog-rolling-in-2.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/hills.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/jeremy-cutoff.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/jeremy-phone.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/jeremy-pondering.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/jeremy-road-filming.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/jrome.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/night-shot-1.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/night-shot-2.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/night-shot-3.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/rio-grande-1.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/rio-grande-2.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/rio-grande-3.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/river-reflection.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/road.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/spider-web.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/storm-coming.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/sunrise-crest.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/valley-yucca.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/windmill.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/yucca.jpg" />

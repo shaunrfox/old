@@ -1,19 +1,18 @@
 ---
 layout: photography
-title:  "San Francisco 2012"
-date:   2012-09-01
+title: "San Francisco 2012"
+date: 2012-09-01
 categories: photos
 base-path: "/assets/img/photos/2012-san-francisco"
 home_image: san-fran-overlook.jpg
 page-title: "I visited San Francisco for a work trip and squeezed all I could out of it."
-
 ---
 
-<img src="{{ page.base-path }}/china-town.jpg" />
-<img src="{{ page.base-path }}/flag.jpg" />
-<img src="{{ page.base-path }}/golden-gate.jpg" />
-<img src="{{ page.base-path }}/house-view.jpg" />
-<img src="{{ page.base-path }}/muir-woods.jpg" />
-<img src="{{ page.base-path }}/san-fran-bay.jpg" />
-<img src="{{ page.base-path }}/san-fran-overlook.jpg" />
-<img src="{{ page.base-path }}/san-fran-tree.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/china-town.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/flag.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/golden-gate.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/house-view.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/muir-woods.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/san-fran-bay.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/san-fran-overlook.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/san-fran-tree.jpg" />

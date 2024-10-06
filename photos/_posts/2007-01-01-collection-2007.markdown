@@ -1,29 +1,28 @@
 ---
 layout: photography
-title:  "Collection 2007"
-date:   2007-01-01
+title: "Collection 2007"
+date: 2007-01-01
 categories: photos
 base-path: "/assets/img/photos/2007-collection"
 home_image: milk-and-crisco.jpg
 page-title: "Some favorites from 2007."
-
 ---
 
-<img src="{{ page.base-path }}/austin-sky.jpg" />
-<img src="{{ page.base-path }}/birdhouse.jpg" />
-<img src="{{ page.base-path }}/brian-maryansky.jpg" />
-<img src="{{ page.base-path }}/grandpa.jpg" />
-<img src="{{ page.base-path }}/half-frame.jpg" />
-<img src="{{ page.base-path }}/jeremy.jpg" />
-<img src="{{ page.base-path }}/jims-1.jpg" />
-<img src="{{ page.base-path }}/jims-2.jpg" />
-<img src="{{ page.base-path }}/kingsland.jpg" />
-<img src="{{ page.base-path }}/layne.jpg" />
-<img src="{{ page.base-path }}/milk-and-crisco.jpg" />
-<img src="{{ page.base-path }}/molly.jpg" />
-<img src="{{ page.base-path }}/patrick.jpg" />
-<img src="{{ page.base-path }}/sarah-monteen-bw.jpg" />
-<img src="{{ page.base-path }}/sarah-monteen.jpg" />
-<img src="{{ page.base-path }}/suburbs.jpg" />
-<img src="{{ page.base-path }}/the-seas.jpg" />
-<img src="{{ page.base-path }}/tom.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/austin-sky.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/birdhouse.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/brian-maryansky.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/grandpa.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/half-frame.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/jeremy.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/jims-1.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/jims-2.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/kingsland.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/layne.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/milk-and-crisco.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/molly.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/patrick.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/sarah-monteen-bw.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/sarah-monteen.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/suburbs.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/the-seas.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/tom.jpg" />

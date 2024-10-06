@@ -1,22 +1,21 @@
 ---
 layout: photography
-title:  "Hunting 2014"
-date:   2014-12-01
+title: "Hunting 2014"
+date: 2014-12-01
 categories: photos
 base-path: "/assets/img/photos/2014-hunting"
 home_image: pond.jpg
 page-title: "These are photos from my second trip deer hunting with my father-in-law."
-
 ---
 
-<img src="{{ page.base-path }}/david.jpg" />
-<img src="{{ page.base-path }}/ace.jpg" />
-<img src="{{ page.base-path }}/cedar.jpg" />
-<img src="{{ page.base-path }}/david-waiting.jpg" />
-<img src="{{ page.base-path }}/fall.jpg" />
-<img src="{{ page.base-path }}/grass.jpg" />
-<img src="{{ page.base-path }}/hoof-prints.jpg" />
-<img src="{{ page.base-path }}/muenster-hotel.jpg" />
-<img src="{{ page.base-path }}/pond.jpg" />
-<img src="{{ page.base-path }}/reflection.jpg" />
-<img src="{{ page.base-path }}/sunrise.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/david.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/ace.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/cedar.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/david-waiting.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/fall.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/grass.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/hoof-prints.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/muenster-hotel.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/pond.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/reflection.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/sunrise.jpg" />

@@ -658,10 +658,6 @@ hr {
   z-index: 400;
 }
 
-::selection {
-  background: rgba(0, 204, 255, 0.3);
-}
-
 /* HEADER & MENU */
 .site-header {
   position: relative;
@@ -1008,7 +1004,7 @@ hr {
 }
 .post-nav:hover {
   color: #fff;
-  background: #5a6260;
+  background: shade(#e0f5f1, 40);
   border: none;
 }
 .post-nav:hover svg {
@@ -1194,7 +1190,7 @@ hr {
 }
 @media (max-width: 800px) {
   .icon-wrapper {
-    width: 33.3333333333%;
+    width: 33.33%;
   }
 }
 @media (max-width: 400px) {

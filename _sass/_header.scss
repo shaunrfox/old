@@ -100,7 +100,7 @@
 .page-title {
 	font-weight: 400;
 	margin: 50px 0;
-	width: percentage(2/3);
+	width: 66.66666666666666%;
 
 	@include breakpoint(medium) {
 		width: 100%;

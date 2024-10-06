@@ -1,15 +1,14 @@
 ---
 layout: photography
-title:  "Collection 2009"
-date:   2009-02-01
+title: "Collection 2009"
+date: 2009-02-01
 categories: photos
 base-path: "/assets/img/photos/2009-collection"
 home_image: bird-2.jpg
 page-title: "A couple of keepers from 2009."
-
 ---
 
-<img src="{{ page.base-path }}/bird-1.jpg" />
-<img src="{{ page.base-path }}/bird-2.jpg" />
-<img src="{{ page.base-path }}/grandpa.jpg" />
-<img src="{{ page.base-path }}/molly.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/bird-1.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/bird-2.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/grandpa.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/molly.jpg" />

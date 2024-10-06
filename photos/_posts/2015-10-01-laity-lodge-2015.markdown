@@ -1,29 +1,28 @@
 ---
 layout: photography
-title:  "Laity Lodge 2015"
-date:   2015-10-01
+title: "Laity Lodge 2015"
+date: 2015-10-01
 categories: photos
 base-path: "/assets/img/photos/2015-laity-lodge"
 home_image: steve-garber.jpg
 page-title: "Laity Lodge Vocational Retreat 2015."
-
 ---
 
-<img src="{{ page.base-path }}/steve-garber.jpg" />
-<img src="{{ page.base-path }}/pre-show.jpg" />
-<img src="{{ page.base-path }}/gideon-tsang.jpg" />
-<img src="{{ page.base-path }}/great-room.jpg" />
-<img src="{{ page.base-path }}/head.jpg" />
-<img src="{{ page.base-path }}/cody-center.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/steve-garber.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/pre-show.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/gideon-tsang.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/great-room.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/head.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/cody-center.jpg" />
 
-<img src="{{ page.base-path }}/lodge.jpg" />
-<img src="{{ page.base-path }}/bridge.jpg" />
-<img src="{{ page.base-path }}/reeds.jpg" />
-<img src="{{ page.base-path }}/ferns.jpg" />
-<img src="{{ page.base-path }}/ledge.jpg" />
-<img src="{{ page.base-path }}/leaf.jpg" />
-<img src="{{ page.base-path }}/reflection.jpg" />
-<img src="{{ page.base-path }}/box-canyon.jpg" />
-<img src="{{ page.base-path }}/box-canyon-wall.jpg" />
-<img src="{{ page.base-path }}/green-moss.jpg" />
-<img src="{{ page.base-path }}/orange-moss.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/lodge.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/bridge.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/reeds.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/ferns.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/ledge.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/leaf.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/reflection.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/box-canyon.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/box-canyon-wall.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/green-moss.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/orange-moss.jpg" />

@@ -95,8 +95,8 @@ page-title: "This is stuff about me."
     		<h2>Experiments &amp; Mockups</h2>
 
     		<ul class="list">
-    			<li><a href="{{ site.baseurl }}/switch-swatch/">Switch Swatch</a></li>
-    			<li><a href="{{ site.baseurl }}/style-guide/">Front-end Style Guide</a></li>
+    			<li><a href="/switch-swatch/">Switch Swatch</a></li>
+    			<li><a href="/style-guide/">Front-end Style Guide</a></li>
     			<li><a href="https://github.com/shaunrfox/fox-icons">Fox Icons on Github</a></li>
     			<li><a href="{{ site.baseurl }}/scroll-highlight/">Scroll Highlight</a></li>
     			<li><a href="http://codepen.io/shaunrfox/full/gbmGOp/">Button Tester</a></li>

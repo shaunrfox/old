@@ -1,28 +1,27 @@
 ---
 layout: photography
-title:  "Colombia 2012"
-date:   2012-03-01
+title: "Colombia 2012"
+date: 2012-03-01
 categories: photos
 base-path: "/assets/img/photos/2012-colombia"
 home_image: dining-room.jpg
 page-title: "We adopted our yougest daughter, Luisa, from Colombia in 2012. The final stage of the process involved us living in Bogot&aacute; for two months. I attempted to capture pieces of the journey while we were there."
-
 ---
 
-<img src="{{ page.base-path }}/ball.jpg" />
-<img src="{{ page.base-path }}/birthday.jpg" />
-<img src="{{ page.base-path }}/braids.jpg" />
-<img src="{{ page.base-path }}/breakfast.jpg" />
-<img src="{{ page.base-path }}/cake.jpg" />
-<img src="{{ page.base-path }}/canal.jpg" />
-<img src="{{ page.base-path }}/car.jpg" />
-<img src="{{ page.base-path }}/dining-room.jpg" />
-<img src="{{ page.base-path }}/house.jpg" />
-<img src="{{ page.base-path }}/katie-lu.jpg" />
-<img src="{{ page.base-path }}/lu-couch.jpg" />
-<img src="{{ page.base-path }}/mountains.jpg" />
-<img src="{{ page.base-path }}/shadow.jpg" />
-<img src="{{ page.base-path }}/swings.jpg" />
-<img src="{{ page.base-path }}/truck.jpg" />
-<img src="{{ page.base-path }}/twin-roofs.jpg" />
-<img src="{{ page.base-path }}/welcome-home.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/ball.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/birthday.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/braids.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/breakfast.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/cake.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/canal.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/car.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/dining-room.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/house.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/katie-lu.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/lu-couch.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/mountains.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/shadow.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/swings.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/truck.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/twin-roofs.jpg" />
+<img src="{{ site.baseurl }}/{{ page.base-path }}/welcome-home.jpg" />

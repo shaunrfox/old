@@ -1,19 +1,18 @@
 ---
 layout: photography
-title:  "NYC 2014"
-date:   2014-09-01
+title: "NYC 2014"
+date: 2014-09-01
 categories: photos
 base-path: "/assets/img/photos/2014-nyc"
 home_image: comedy-cellar.jpg
 page-title: "Photos from a brief 8-hour jaunt in West Village, NYC."
-
 ---
 
-<img src="{{ page.base-path }}/basketball.jpg" />
-<img src="{{ page.base-path }}/comedy-cellar.jpg" />
-<img src="{{ page.base-path }}/handball.jpg" />
-<img src="{{ page.base-path }}/manhattan.jpg" />
-<img src="{{ page.base-path }}/bar.jpg" />
-<img src="{{ page.base-path }}/on-the-train.jpg" />
-<img src="{{ page.base-path }}/penn-station.jpg" />
-<img src="{{ page.base-path }}/train.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/basketball.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/comedy-cellar.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/handball.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/manhattan.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/bar.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/on-the-train.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/penn-station.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/train.jpg" />

@@ -1,35 +1,34 @@
 ---
 layout: photography
-title:  "Tokyo 2019"
-date:   2019-02-28
+title: "Tokyo 2019"
+date: 2019-02-28
 categories: photos
 base-path: "/assets/img/photos/2019-02-tokyo"
 home_image: boxes.jpg
 page-title: "Tokyo street photography, 2019"
-
 ---
 
-<img src="{{ page.base-path }}/ebisu-at-night.jpg" />
-<img src="{{ page.base-path }}/ebisu-street.jpg" />
-<img src="{{ page.base-path }}/flowers-1.jpg" />
-<img src="{{ page.base-path }}/garden.jpg" />
-<img src="{{ page.base-path }}/mural.jpg" />
-<img src="{{ page.base-path }}/people-1.jpg" />
-<img src="{{ page.base-path }}/people-2.jpg" />
-<img src="{{ page.base-path }}/people-3.jpg" />
-<img src="{{ page.base-path }}/people-4.jpg" />
-<img src="{{ page.base-path }}/people-10.jpg" />
-<img src="{{ page.base-path }}/people-5.jpg" />
-<img src="{{ page.base-path }}/people-6.jpg" />
-<img src="{{ page.base-path }}/people-7.jpg" />
-<img src="{{ page.base-path }}/people-8.jpg" />
-<img src="{{ page.base-path }}/people-9.jpg" />
-<img src="{{ page.base-path }}/people-11.jpg" />
-<img src="{{ page.base-path }}/people-12.jpg" />
-<img src="{{ page.base-path }}/shinto-temple.jpg" />
-<img src="{{ page.base-path }}/shiba.jpg" />
-<img src="{{ page.base-path }}/tokyo.jpg" />
-<img src="{{ page.base-path }}/tree.jpg" />
-<img src="{{ page.base-path }}/uniforms.jpg" />
-<img src="{{ page.base-path }}/flowers-2.jpg" />
-<img src="{{ page.base-path }}/boxes.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/ebisu-at-night.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/ebisu-street.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/flowers-1.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/garden.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/mural.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/people-1.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/people-2.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/people-3.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/people-4.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/people-10.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/people-5.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/people-6.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/people-7.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/people-8.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/people-9.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/people-11.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/people-12.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/shinto-temple.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/shiba.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/tokyo.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/tree.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/uniforms.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/flowers-2.jpg" />
+<img src="{{ site.baseurl }}/{{page.base-path }}/boxes.jpg" />
