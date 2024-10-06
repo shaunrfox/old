@@ -109,7 +109,7 @@
 	&:focus {
 		outline: none;
 		cursor: cell;
-		background: tint($body-background, 50);
+		background: rgba($body-background, .5);
 
 		.title { color: $off-black; }
 	}

@@ -94,4 +94,4 @@ hr {
 
 .elFox { z-index: 400; }
 
-::selection { background: tint($cyan, 30); }
+::selection { background: rgba($cyan, .3); }

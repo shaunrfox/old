@@ -2,7 +2,7 @@
 
 Hand crafted SVG icons by Shaun Fox. Free to use, not to sell.
 
-[See all the icons on my site.](http://shaunfox.com/icons)
+[See all the icons on my site.](https://okshaun.com{{ site.baseurl }}/icons)
 
 ### Install
 
@@ -19,11 +19,13 @@ bower install fox-icons
 ### How to use in bower
 
 To add it to your bower file, do the usual bower thing:
+
 ```bash
 bower install --save fox-icons
 ```
 
 However, because this repository is frequently updated, I'd reccomend changing your bower file to something like this
+
 ```json
 "fox-icons": "*"
 ```

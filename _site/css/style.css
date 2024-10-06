@@ -659,7 +659,7 @@ hr {
 }
 
 ::selection {
-  background: #b3f0ff;
+  background: rgba(0, 204, 255, 0.3);
 }
 
 /* HEADER & MENU */
@@ -1182,7 +1182,7 @@ hr {
 .icon-wrapper:hover, .icon-wrapper:focus {
   outline: none;
   cursor: cell;
-  background: #f0faf8;
+  background: rgba(224, 245, 241, 0.5);
 }
 .icon-wrapper:hover .title, .icon-wrapper:focus .title {
   color: #111;
@@ -1572,7 +1572,7 @@ li.L9 {
 .list a {
   display: block;
   float: left;
-  background: #f7f7f7;
+  background: #eee, 50;
   border-radius: 4px;
   padding: 5px 10px;
   margin: 0 5px 5px 0;
@@ -1580,7 +1580,7 @@ li.L9 {
   color: #111;
 }
 .list a:hover {
-  background: #ccf5ff;
+  background: rgba(0, 204, 255, 0.2);
 }
 
 /*
@@ -1680,7 +1680,7 @@ li.L9 {
   color: #aaa;
 }
 .writing-post-wrapper blockquote {
-  border-left: 3px solid #ccf5ff;
+  border-left: 3px solid rgba(0, 204, 255, 0.2);
   margin-left: 0;
   padding: 20px 20px 1px 20px;
 }

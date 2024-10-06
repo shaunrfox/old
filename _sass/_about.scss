@@ -90,7 +90,7 @@
   a {
     display: block;
     float: left;
-    background: tint($off-white, 50);
+    background: $off-white, 50;
     border-radius: 4px;
     padding: 5px 10px;
     margin: 0 5px 5px 0;
@@ -98,7 +98,7 @@
     color: $off-black;
 
     &:hover {
-      background: tint($cyan, 20);
+      background: rgba($cyan, .2);
     }
   }
 }

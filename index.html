@@ -5,17 +5,21 @@ page-title: "Here&rsquo;s some of my work."
 ---
 
 <section class="container home-projects" id="home">
-	<div class="column">
-		{% for post in site.categories.work %}
-			<div class="project {{ post.waiting }}">
-				<div class="project-info">
-					<a class="project-link" href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-					<p class="project-home-description">{{ post.home-description }}</p>
-				</div>
-				<div class="project-image">
-					<a class="project-link" href="{{ post.url }}"><img src="../assets/img/home/{{ post.home_image }}"/></a>
-				</div>
-			</div>
-		{% endfor %}
-	</div>
+  <div class="column">
+    {% for post in site.categories.work %}
+    <div class="project {{ post.waiting }}">
+      <div class="project-info">
+        <a class="project-link" href="{{ site.baseurl }}/{{ post.url }}"
+          ><h2>{{ post.title }}</h2></a
+        >
+        <p class="project-home-description">{{ post.home-description }}</p>
+      </div>
+      <div class="project-image">
+        <a class="project-link" href="{{ site.baseurl }}/{{ post.url }}"
+          ><img src="{{ site.baseurl }}/assets/img/home/{{ post.home_image }}"
+        /></a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </section>
