@@ -6,7 +6,7 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic);
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 article,
 aside,
 details,
@@ -552,7 +552,7 @@ table {
 }
 
 html {
-  font-family: "Source Sans Pro", Verdana, Helvetica, Arial, sans-serif;
+  font-family: "Source Sans 3", Verdana, Helvetica, Arial, sans-serif;
   font-size: 62.5%;
   color: #111;
   width: 100%;
@@ -601,7 +601,7 @@ h3 {
 }
 
 p {
-  font-family: "chaparral-pro", georgia, times, serif;
+  font-family: "Lora", "chaparral-pro", georgia, times, serif;
   font-weight: 400;
   font-size: 24px;
   font-size: 2.4rem;
@@ -616,7 +616,7 @@ p.note {
 }
 
 blockquote {
-  font-family: "chaparral-pro", georgia, times, serif;
+  font-family: "Lora", "chaparral-pro", georgia, times, serif;
   font-size: 25px;
   font-size: 2.5rem;
   font-style: italic;
@@ -756,7 +756,7 @@ hr {
 }
 
 .main-title {
-  font-family: "chaparral-pro", georgia, times, serif;
+  font-family: "Lora", "chaparral-pro", georgia, times, serif;
   font-size: 60px;
   font-size: 6rem;
   margin: 30px 0 -1px 0;
@@ -803,7 +803,7 @@ hr {
 .site-footer .column p {
   margin: 0;
   float: left;
-  font-family: "Source Sans Pro", Verdana, Helvetica, Arial, sans-serif;
+  font-family: "Source Sans 3", Verdana, Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #aaa;
@@ -1489,7 +1489,7 @@ li.L9 {
 }
 
 .resume-dates {
-  font-family: "Source Sans Pro", Verdana, Helvetica, Arial, sans-serif;
+  font-family: "Source Sans 3", Verdana, Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -1519,7 +1519,7 @@ li.L9 {
   color: rgba(102, 102, 102, 0.8);
 }
 .values p.label {
-  font-family: "Source Sans Pro", Verdana, Helvetica, Arial, sans-serif;
+  font-family: "Source Sans 3", Verdana, Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-size: 2rem;
   text-transform: uppercase;
@@ -1615,7 +1615,7 @@ li.L9 {
   clear: both;
   font-size: 16px;
   font-size: 1.6rem;
-  font-family: "Source Sans Pro", Verdana, Helvetica, Arial, sans-serif;
+  font-family: "Source Sans 3", Verdana, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
@@ -1628,7 +1628,7 @@ li.L9 {
   width: 100%;
   font-size: 18px;
   font-size: 1.8rem;
-  font-family: "chaparral-pro", georgia, times, serif;
+  font-family: "Lora", "chaparral-pro", georgia, times, serif;
   line-height: 1.5em;
   color: #666;
   z-index: 10;
@@ -1689,7 +1689,7 @@ li.L9 {
   margin-bottom: 0.5em;
 }
 .writing-post-wrapper .meta {
-  font-family: "Source Sans Pro", Verdana, Helvetica, Arial, sans-serif;
+  font-family: "Source Sans 3", Verdana, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;

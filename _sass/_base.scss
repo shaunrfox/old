@@ -5,7 +5,7 @@
 }
 
 html {
-	@include source-sans();
+	@include sans();
 	font-size: 62.5%;
 	color: $off-black;
 	width: 100%;
@@ -42,7 +42,7 @@ h2 {
 h3 { @include font-size(1.2); }
 
 p {
-	@include chaparral();
+	@include serif();
 	font-weight: 400;
 	@include font-size(2.4);
 	line-height: 1.5em;
@@ -56,7 +56,7 @@ p {
 }
 
 blockquote {
-	@include chaparral();
+	@include serif();
 	@include font-size(2.5);
 	font-style: italic;
 	margin-bottom: 25px;

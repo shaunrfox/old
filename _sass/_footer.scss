@@ -16,7 +16,7 @@
     p {
       margin: 0;
       float: left;
-      @include source-sans();
+      @include sans();
       @include font-size(1.4);
       color: $mid-grey;
       height: 40px;

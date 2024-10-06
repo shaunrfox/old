@@ -36,7 +36,7 @@
 		float: left;
 		clear: both;
 		@include font-size(1.6);
-		@include source-sans();
+		@include sans();
 		@include uppercase;
 		color: $mid-grey;
 	}
@@ -47,7 +47,7 @@
 		position: relative;
 		width: 100%;
 		@include font-size(1.8);
-		@include chaparral();
+		@include serif();
 		line-height: 1.5em;
 		color: $dark-grey;
 		z-index: 10;
@@ -103,7 +103,7 @@
 	}
 
 	.meta {
-		@include source-sans();
+		@include sans();
 		@include uppercase();
 		@include font-size(1.4);
 		color: $mid-grey;

@@ -40,7 +40,7 @@
 }
 
 .resume-dates {
-  @include source-sans();
+  @include sans();
   @include font-size(1.4);
   @include uppercase();
   color: rgba($dark-grey, .8);
@@ -67,7 +67,7 @@
   color: rgba($dark-grey, .8);
 
   &.label {
-    @include source-sans();
+    @include sans();
     @include font-size(2);
     @include uppercase();
     color: $off-black;
