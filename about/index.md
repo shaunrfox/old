@@ -95,8 +95,10 @@ page-title: "This is stuff about me."
     		<h2>Experiments &amp; Mockups</h2>
 
     		<ul class="list">
-    			<li><a href="/switch-swatch/">Switch Swatch</a></li>
-    			<li><a href="/style-guide/">Front-end Style Guide</a></li>
+    			<li><a href="https://okshaun.com/hito/">Hitomezashi</a></li>
+    			<li><a href="https://svg.okshaun.com/">SVG Patterns</a></li>
+    			<li><a href="https://okshaun.com/switch-swatch/">Switch Swatch</a></li>
+    			<li><a href="https://okshaun.com/style-guide/">Front-end Style Guide</a></li>
     			<li><a href="https://github.com/shaunrfox/fox-icons">Fox Icons on Github</a></li>
     			<li><a href="{{ site.baseurl }}/scroll-highlight/">Scroll Highlight</a></li>
     			<li><a href="http://codepen.io/shaunrfox/full/gbmGOp/">Button Tester</a></li>
@@ -106,7 +108,7 @@ page-title: "This is stuff about me."
     			<li><a href="{{ site.baseurl }}/colores/">Colores</a></li>
     			<li><a href="{{ site.baseurl }}/bypass-licensing/">Licensing Mockup</a></li>
     			<li><a href="{{ site.baseurl }}/bypass-online-order/">Online Order Mockup</a></li>
-    			<li><a href="{{ site.baseurl }}/lettering-links/">Lettering Links</a></li>
+    			<!-- <li><a href="{{ site.baseurl }}/lettering-links/">Lettering Links</a></li> -->
     			<li><a href="{{ site.baseurl }}/absolute-dashboard/">Absolute Dashboard</a></li>
     			<li><a href="{{ site.baseurl }}/layouts/">Layouts</a></li>
     			<li><a href="{{ site.baseurl }}/gaber/">Gaber</a></li>

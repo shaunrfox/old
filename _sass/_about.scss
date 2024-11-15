@@ -90,15 +90,18 @@
   a {
     display: block;
     float: left;
-    background: $off-white, 50;
-    border-radius: 4px;
-    padding: 5px 10px;
+    background: $off-white;
+    border-radius: 5px;
+    padding: 5px 12px;
     margin: 0 5px 5px 0;
-    border-bottom: 1px solid rgba($off-black, .1);
+    border: 1px solid transparent;
+    border-bottom-color: rgba($off-black, .1);
     color: $off-black;
 
     &:hover {
-      background: rgba($cyan, .2);
+      background: rgba($blue, .1);
+      border-color: $blue;
+      color: $blue;
     }
   }
 }
